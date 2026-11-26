@@ -88,17 +88,23 @@
   document.addEventListener("click", function (ev) { var y = ev.target.closest(".yt"); if (y) playYt(y); });
   document.addEventListener("keydown", function (ev) { var y = ev.target.closest && ev.target.closest(".yt"); if (y && (ev.key === "Enter" || ev.key === " ")) { ev.preventDefault(); playYt(y); } });
 
-  /* Formulário (funciona quando o site está hospedado no Netlify, via Netlify Forms) */
-  var f = $("#form-descoberta");
-  if (f) f.addEventListener("submit", function (ev) {
-    ev.preventDefault();
-    var msg = $("#form-msg"), btn = f.querySelector("button[type=submit]");
-    btn.disabled = true;
-    var body = new URLSearchParams(new FormData(f)).toString();
-    fetch("/", { method: "POST", headers: { "Content-Type": "application/x-www-form-urlencoded" }, body: body })
-      .then(function (r) { if (!r.ok) throw 0; f.reset(); msg.textContent = "Valeu! Recebemos sua descoberta. Se for publicada, seu nome entra nos créditos."; msg.className = "fmsg ok"; })
-      .catch(function () { msg.textContent = "Não deu pra enviar agora. Tenta de novo mais tarde ou manda pelo e-mail eastereggsgta6@gmail.com."; msg.className = "fmsg err"; })
-      .then(function () { btn.disabled = false; });
+  /* Formulários: as mensagens chegam no e-mail via FormSubmit */
+  document.querySelectorAll("form.send").forEach(function (f) {
+    f.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      var msg = f.querySelector(".fmsg") || $("#form-msg"), btn = f.querySelector("button[type=submit]");
+      var fd = new FormData(f);
+      if (fd.get("bot-field")) return;
+      fd.delete("bot-field"); fd.delete("form-name");
+      var data = {}; fd.forEach(function (v, k) { data[k] = v; });
+      data._subject = f.name === "contato" ? "Contato pelo site" : "Nova descoberta enviada pelo site";
+      data._template = "table";
+      btn.disabled = true;
+      fetch("https://formsubmit.co/ajax/eastereggsgta6@gmail.com", { method: "POST", headers: { "Content-Type": "application/json", "Accept": "application/json" }, body: JSON.stringify(data) })
+        .then(function (r) { if (!r.ok) throw 0; f.reset(); msg.textContent = f.name === "contato" ? "Valeu! Recebemos sua mensagem e respondemos pelo e-mail." : "Valeu! Recebemos sua descoberta. Se for publicada, seu nome entra nos créditos."; msg.className = "fmsg ok"; })
+        .catch(function () { msg.textContent = "Não deu pra enviar agora. Tenta de novo mais tarde ou manda pelo e-mail eastereggsgta6@gmail.com."; msg.className = "fmsg err"; })
+        .then(function () { btn.disabled = false; });
+    });
   });
 
   paintAll();
