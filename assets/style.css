@@ -142,7 +142,7 @@ footer p{max-width:760px;margin-bottom:6px}
 .stretch::after{content:"";position:absolute;inset:0;border-radius:var(--r)}
 .card .chk{position:relative;z-index:1}
 .badge.new{background:rgba(255,61,139,.16);color:var(--pink)}
-.fmsg{margin-top:12px;font-size:14px}.fmsg.ok{color:var(--teal)}.fmsg.err{color:var(--pink)}
+.fmsg{margin-top:12px;font-size:15px}.fmsg:empty{display:none}.fmsg.err{color:#fff;background:#3a1430;border:1px solid var(--pink);border-radius:12px;padding:12px 14px}.fdone{background:var(--card);border:1px solid var(--teal);border-radius:16px;padding:28px 22px;text-align:center;margin-top:8px}.fdone .ck{width:64px;height:64px;border-radius:50%;background:var(--teal);color:#0f0b1a;font-size:36px;line-height:64px;margin:0 auto 14px;font-weight:700}.fdone h3{font-family:"Archivo Black",sans-serif;font-size:24px;margin-bottom:8px}.fdone p{color:#d9d0ea;margin-bottom:16px}.btn[disabled]{opacity:.6;cursor:wait}
 form.send{display:grid;gap:12px;max-width:640px;margin-top:18px}
 form.send label{font-size:14px;font-weight:600;display:grid;gap:6px}
 form.send input,form.send textarea{background:var(--bg2);border:1px solid var(--line);color:var(--text);border-radius:10px;padding:11px 13px;font:inherit;font-size:15px;outline:none}
