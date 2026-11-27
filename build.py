@@ -154,11 +154,18 @@ def ad(slot):
     return f'<div class="ad-slot" data-ad="{slot}"><!-- ANÚNCIO ({slot}): cole aqui o código do AdSense --></div>'
 
 def comments_html(pid, path, title):
-    app = SITE.get("cusdis", "")
-    if not app: return ""
-    return ('<h2>Comentários</h2><p class="cmt-note">Achou esse easter egg? Tem uma dica ou viu algo diferente? Conta aqui. Os comentários passam por aprovação antes de aparecer.</p>'
-            '<div id="cusdis_thread" data-host="https://cusdis.com" data-app-id="' + e_(app) + '" data-page-id="' + e_(pid) + '" data-page-url="' + e_(SITE["url"] + "/" + path) + '" data-page-title="' + e_(title) + '" data-theme="dark"></div>'
-            '<script defer src="https://cusdis.com/js/widget/lang/pt-br.js"></script><script defer src="https://cusdis.com/js/cusdis.es.js"></script>')
+    C = SITE.get("comments") or {}
+    if not (C.get("turnstile") and C.get("d1")): return ""
+    return ('<section class="cmts" id="comentarios" data-page="' + e_(pid) + '" data-sitekey="' + e_(C["turnstile"]) + '">'
+            '<h2>Comentários</h2><p class="cmt-note">Achou esse easter egg? Tem uma dica ou viu algo diferente? Conta aqui. Os comentários passam por aprovação antes de aparecer.</p>'
+            '<div class="cmt-list" aria-live="polite"><p class="cmt-empty">Carregando comentários…</p></div>'
+            '<form class="cmt-form" novalidate><label>Seu nome ou apelido<input name="name" maxlength="40" required autocomplete="nickname"></label>'
+            '<label>Comentário<textarea name="text" maxlength="1200" rows="4" required></textarea></label>'
+            '<input name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">'
+            '<div class="cf-turnstile" data-sitekey="' + e_(C["turnstile"]) + '" data-theme="dark" data-language="pt-br"></div>'
+            '<button class="btn" type="submit">Enviar comentário</button><p class="fmsg"></p>'
+            '<p class="cmt-priv">Não publique dados pessoais. Ao comentar, você concorda com a nossa <a href="../privacidade.html">política de privacidade</a>.</p></form></section>'
+            '<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>')
 
 def news_html():
     N = D.get("news", [])[:5]
@@ -692,6 +699,7 @@ def simple_page(slug, title, desc, body, extra_css="", extra_head=""):
     (OUT / f"{slug}.html").write_text(page, encoding="utf-8")
 
 def build_static_pages():
+    CMT_PRIV = ("<li><strong>Comentários</strong>: quando você comenta, guardamos o nome ou apelido que você escreveu, o texto, a data e um código que não permite identificar seu IP (usado só para barrar spam). Os dados ficam no banco de dados da Cloudflare. O comentário só aparece depois de aprovado, e você pode pedir para apagá-lo pelo nosso e-mail. A verificação \"não sou um robô\" é feita pelo Cloudflare Turnstile.</li>") if (SITE.get("comments") or {}).get("d1") else ""
     em, ig, tt = e_(SITE["email"]), e_(SITE["instagram"]), e_(SITE["tiktok"])
     upd = br(SITE["updated"])
     simple_page("sobre", "Sobre – Easter Eggs GTA 6", "Quem faz o Easter Eggs GTA 6, como a lista de easter eggs é montada e como as descobertas são creditadas.", f"""
@@ -747,7 +755,7 @@ def build_static_pages():
 </ul>
 <h2>3. Serviços de terceiros</h2>
 <ul>
-<li><strong>Hospedagem (Cloudflare) e formulários (FormSubmit)</strong>: o site fica hospedado na Cloudflare, Inc., e as mensagens dos formulários são entregues no nosso e-mail pelo serviço FormSubmit. As duas empresas tratam dados técnicos e as mensagens enviadas em nosso nome, fora do Brasil. Isso envolve transferência internacional de dados, feita com as garantias previstas na LGPD.</li>
+<li><strong>Hospedagem (Cloudflare) e formulários (FormSubmit)</strong>: o site fica hospedado na Cloudflare, Inc., e as mensagens dos formulários são entregues no nosso e-mail pelo serviço FormSubmit. As duas empresas tratam dados técnicos e as mensagens enviadas em nosso nome, fora do Brasil. Isso envolve transferência internacional de dados, feita com as garantias previstas na LGPD.</li>{CMT_PRIV}
 <li><strong>Vídeos do YouTube</strong>: os vídeos só carregam quando você clica no player, usando o modo de privacidade reforçada (youtube-nocookie.com). A partir do clique, o Google pode coletar dados conforme a política dele.</li>
 <li><strong>Fontes do Google</strong>: as fontes do site são carregadas do Google Fonts, o que envia seu endereço IP ao Google.</li>
 <li><strong>Google AdSense (anúncios)</strong>: o site pode exibir anúncios do Google. O Google e seus parceiros usam cookies pra mostrar anúncios com base nas suas visitas a este e a outros sites. Você pode desativar a personalização de anúncios nas <a href="https://adssettings.google.com" target="_blank" rel="noopener">Configurações de anúncios do Google</a>. Saiba mais em <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">como o Google usa informações de sites que usam os serviços dele</a>.</li>
@@ -1209,6 +1217,27 @@ def build_guia_compra():
                 body, css, '<script type="application/ld+json">' + json.dumps(faq, ensure_ascii=False) + '</script>\n')
 
 
+def build_moderar():
+    body = """<h1>Moderar comentários</h1>
+<p>Página só sua. Digite a senha de moderação (a mesma que você salvou como ADMIN_KEY na Cloudflare).</p>
+<div class="mrow"><input id="k" type="password" placeholder="Senha de moderação" autocomplete="current-password"><button class="btn" id="go">Entrar</button>
+<select id="st"><option value="pending">Aguardando aprovação</option><option value="approved">Já aprovados</option></select></div>
+<p id="msg" class="fmsg"></p><div id="list"></div>
+<script>(function(){var K="mod-key",k=document.getElementById("k"),L=document.getElementById("list"),M=document.getElementById("msg"),S=document.getElementById("st");
+try{k.value=localStorage.getItem(K)||""}catch(_){}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function load(){try{localStorage.setItem(K,k.value)}catch(_){}M.textContent="Carregando…";
+fetch("/api/admin/pending?status="+S.value,{headers:{"x-admin-key":k.value}}).then(function(r){return r.json()}).then(function(j){
+if(j.error){M.textContent=j.error;L.innerHTML="";return}M.textContent=j.comments.length?j.comments.length+" comentário(s)":"Nada aqui.";
+L.innerHTML=j.comments.map(function(c){return '<div class="mc" data-id="'+c.id+'"><small>'+esc(c.page)+' · '+esc(c.created.slice(0,16).replace("T"," "))+'</small><b>'+esc(c.name)+'</b><p>'+esc(c.text)+'</p><div>'+(S.value==="pending"?'<button class="btn" data-a="approve">Aprovar</button> ':'')+'<button class="btn ghost" data-a="delete">Apagar</button></div></div>'}).join("")})
+.catch(function(){M.textContent="Não deu pra carregar."})}
+L.addEventListener("click",function(e){var b=e.target.closest("button[data-a]");if(!b)return;var d=b.closest(".mc");
+if(b.dataset.a==="delete"&&!confirm("Apagar esse comentário de vez?"))return;
+fetch("/api/admin/moderate",{method:"POST",headers:{"content-type":"application/json","x-admin-key":k.value},body:JSON.stringify({id:d.dataset.id,action:b.dataset.a})}).then(function(r){return r.json()}).then(function(j){if(j.ok)d.remove();else M.textContent=j.error||"Erro"})});
+document.getElementById("go").addEventListener("click",load);S.addEventListener("change",load);if(k.value)load();})();</script>"""
+    css = ".mrow{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.mrow input,.mrow select{background:#0f0b1a;border:1px solid var(--line);border-radius:10px;color:var(--text);padding:10px 12px;font:inherit}.mc{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:10px}.mc small{display:block;color:var(--muted);font-size:12px}.mc p{white-space:pre-wrap;margin:6px 0 10px}"
+    simple_page("moderar", "Moderar comentários – Easter Eggs GTA 6", "Página de moderação.", body, css, '<meta name="robots" content="noindex, nofollow">\n')
+
 def main():
     if OUT.exists(): shutil.rmtree(OUT)
     (OUT / "easter-eggs").mkdir(parents=True); (OUT / "assets").mkdir(); (OUT / "img").mkdir()
@@ -1225,6 +1254,17 @@ def main():
     build_brasil()
     build_trofeus()
     build_guia_compra()
+    C = SITE.get("comments") or {}
+    if C.get("d1"):
+        (OUT / "_worker").mkdir(exist_ok=True)
+        shutil.copy(ROOT / "worker" / "index.js", OUT / "_worker" / "index.js")
+        (OUT / "wrangler.jsonc").write_text(json.dumps({
+            "name": "eastereggsgta6", "main": "_worker/index.js", "compatibility_date": "2026-11-01",
+            "assets": {"directory": "./", "binding": "ASSETS", "not_found_handling": "404-page", "run_worker_first": ["/api/*"]},
+            "d1_databases": [{"binding": "DB", "database_name": C.get("d1name", "comentarios"), "database_id": C["d1"]}],
+            "observability": {"enabled": True}}, indent=2), encoding="utf-8")
+        (OUT / ".assetsignore").write_text("_worker\nwrangler.jsonc\n.assetsignore\n", encoding="utf-8")
+        build_moderar()
     try:
         build_og()
         shutil.copy(OUT / "og.png", ROOT / "vendor" / "og.png")

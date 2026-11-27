@@ -120,5 +120,30 @@
     });
   });
 
+
+  /* Comentários próprios (Cloudflare D1 + Turnstile) */
+  document.querySelectorAll(".cmts").forEach(function (box) {
+    var page = box.getAttribute("data-page"), list = box.querySelector(".cmt-list"), f = box.querySelector(".cmt-form"), msg = f.querySelector(".fmsg"), btn = f.querySelector("button[type=submit]");
+    var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };
+    function fmt(d) { try { return new Date(d).toLocaleDateString("pt-BR", { day: "2-digit", month: "short", year: "numeric" }); } catch (_) { return ""; } }
+    fetch("/api/comments?page=" + encodeURIComponent(page)).then(function (r) { return r.json(); }).then(function (j) {
+      var c = j.comments || [];
+      list.innerHTML = c.length ? c.map(function (x) { return '<div class="cmt"><div class="cmt-h"><b>' + esc(x.name) + '</b><time>' + fmt(x.created) + '</time></div><p>' + esc(x.text) + '</p></div>'; }).join("") : '<p class="cmt-empty">Ninguém comentou ainda. Seja o primeiro!</p>';
+    }).catch(function () { list.innerHTML = '<p class="cmt-empty">Não deu pra carregar os comentários agora.</p>'; });
+    f.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      var fd = new FormData(f), name = (fd.get("name") || "").trim(), text = (fd.get("text") || "").trim();
+      var token = fd.get("cf-turnstile-response") || "";
+      if (name.length < 2 || text.length < 3) { msg.textContent = "Preencha o nome e o comentário."; msg.className = "fmsg err"; return; }
+      if (!token) { msg.textContent = "Espere a verificação \"não sou um robô\" terminar e tente de novo."; msg.className = "fmsg err"; return; }
+      btn.disabled = true; btn.textContent = "Enviando…"; msg.textContent = ""; msg.className = "fmsg";
+      fetch("/api/comments", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ page: page, name: name, text: text, token: token, website: fd.get("website") || "" }) })
+        .then(function (r) { return r.json().then(function (j) { if (!r.ok || !j.ok) throw new Error(j.error || ""); }); })
+        .then(function () { f.reset(); msg.textContent = "✓ Comentário enviado! Ele aparece aqui assim que for aprovado."; msg.className = "fmsg okk"; })
+        .catch(function (e) { msg.textContent = e.message || "Não deu pra enviar agora. Tente de novo."; msg.className = "fmsg err"; })
+        .then(function () { btn.disabled = false; btn.textContent = "Enviar comentário"; try { window.turnstile && turnstile.reset(); } catch (_) {} });
+    });
+  });
+
   paintAll();
 })();
