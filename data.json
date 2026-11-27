@@ -1,0 +1,2707 @@
+{
+ "sources": {
+  "gamespot": {
+   "n": "GameSpot",
+   "u": "https://www.gamespot.com/articles/gta-6-easter-eggs-list-and-locations/"
+  },
+  "gta6info": {
+   "n": "GTA 6 Wiki (gta6info.com)",
+   "u": "https://gta6info.com/wiki/Easter_Eggs"
+  },
+  "wikigtavi": {
+   "n": "WikiGTAVI",
+   "u": "https://www.wikigtavi.com/guides/gta-6-easter-eggs-secrets"
+  },
+  "leonida": {
+   "n": "Leonida Verse",
+   "u": "https://leonidaverse.com/en/codex/gta-6-easter-eggs"
+  },
+  "outputlag": {
+   "n": "Output Lag",
+   "u": "https://outputlag.com/guides/gta-6-easter-eggs/"
+  },
+  "gamesgg": {
+   "n": "games.gg (PT-BR)",
+   "u": "https://games.gg/pt-BR/grand-theft-auto-vi/guides/grand-theft-auto-6-easter-eggs-e-segredos-conhecidos"
+  },
+  "egw": {
+   "n": "EGW News",
+   "u": "https://egw.news/gaming/news/38607/red-hulk-and-x-men-how-to-find-marvel-easter-eggs--qCL28k3Xd"
+  },
+  "endgame": {
+   "n": "Endgame Tools",
+   "u": "https://endgametools.com/en/gta-6/news/gta-6-easter-eggs"
+  },
+  "g6wiki": {
+   "n": "GTA6Wiki.eu",
+   "u": "https://www.gta6wiki.eu/easter-eggs/"
+  },
+  "zaccox": {
+   "n": "ZacCoxTV: 50 GTA 6 Easter Eggs & Secrets (YouTube)",
+   "u": "https://www.youtube.com/watch?v=bCKm934JnY0"
+  },
+  "kotaku": {
+   "n": "Kotaku",
+   "u": "https://kotaku.com/turns-out-gta-san-andreas-remastered-was-teasing-gta-6-back-in-2021-2000758132"
+  },
+  "vgc": {
+   "n": "Video Games Chronicle",
+   "u": "https://www.videogameschronicle.com/news/gta-6-players-discover-our-real-first-look-at-the-game-was-likely-hidden-in-a-2021-remaster/"
+  },
+  "forbes": {
+   "n": "Forbes",
+   "u": "https://www.forbes.com/sites/paultassi/2026/11/23/a-gta-6-player-finds-tommy-vercettis-shirt-portal-to-original-vice-city/"
+  },
+  "purexbox": {
+   "n": "Pure Xbox",
+   "u": "https://www.purexbox.com/news/2026/11/gta-6s-most-spectacular-easter-egg-so-far-has-just-been-discovered"
+  },
+  "buzzfeed": {
+   "n": "BuzzFeed",
+   "u": "https://www.buzzfeed.com/mariamsharia/gta-6-easter-eggs-players-have-already-found"
+  },
+  "gamerpapers": {
+   "n": "GamerPapers",
+   "u": "https://en.gamerpapers.com/gta-6-hidden-details-players-found/"
+  },
+  "aoeah": {
+   "n": "AOEAH",
+   "u": "https://www.aoeah.com/news/4948--top-30-gta-6-best-easter-eggs--secrets-location--loot"
+  },
+  "gamingbible": {
+   "n": "GamingBible",
+   "u": "https://www.gamingbible.com/news/gta-6-easter-eggs-778903-20261120"
+  },
+  "gamingbible2": {
+   "n": "GamingBible (Mount Chiliad)",
+   "u": "https://www.gamingbible.com/news/gta-6-gta-5-mount-chiliad-mystery-easter-egg-802897-20261120"
+  },
+  "canaltech": {
+   "n": "Canaltech",
+   "u": "https://canaltech.com.br/games/gta-6-esconde-easter-egg-psicodelico-de-super-mario-bros-veja-o-segredo/"
+  },
+  "correio": {
+   "n": "Correio Braziliense",
+   "u": "https://www.correiobraziliense.com.br/diversao-e-arte/2026/11/7542721-gta-6-esconde-surpresas-inusitadas-veja-10-easter-eggs-encontrados-ate-agora.html"
+  },
+  "egwt2": {
+   "n": "EGW News (Terminator e Tartarugas Ninja)",
+   "u": "https://egw.news/gaming/news/38711/how-to-find-terminator-2-and-tmnt-easter-eggs-in-g-VhWuU4jzU"
+  },
+  "egwall": {
+   "n": "EGW News (todos os segredos)",
+   "u": "https://egw.news/gaming/news/38689/how-to-find-every-easter-egg-and-secret-in-gta-6-yd5GkFzZU"
+  },
+  "gamesggen": {
+   "n": "games.gg (EN)",
+   "u": "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-easter-eggs-and-secrets-known-clues/"
+  },
+  "edinburgh": {
+   "n": "Everything Edinburgh",
+   "u": "https://everythingedinburgh.com/games/gaming/gta-6-hidden-features/"
+  },
+  "vice": {
+   "n": "VICE",
+   "u": "https://www.vice.com/en/article/gta-6-cheat-codes-list/"
+  },
+  "redbull": {
+   "n": "Red Bull",
+   "u": "https://www.redbull.com/us-en/gta-6-cheat-codes"
+  },
+  "keengamer": {
+   "n": "KeenGamer",
+   "u": "https://www.keengamer.com/articles/guides/gta-6-all-cheat-codes-for-ps5-and-xbox-and-how-to-unlock-them/"
+  },
+  "rarethief": {
+   "n": "Rare Thief",
+   "u": "https://rarethief.com/all-gta-vi-cheat-codes/"
+  },
+  "gtaside": {
+   "n": "GTA Side",
+   "u": "https://gtaside.com/tips/gta6/cheat-codes/"
+  },
+  "gamertweak": {
+   "n": "Gamer Tweak",
+   "u": "https://gamertweak.com/cheat-codes-gta-6/"
+  },
+  "beebom": {
+   "n": "Beebom",
+   "u": "https://beebom.com/gta-6-cheat-codes/"
+  },
+  "gtabay": {
+   "n": "GTA Bay",
+   "u": "https://gtabay.com/en/guides/gta-6-rare-cars-locations"
+  },
+  "macetes": {
+   "n": "Macetes GTA 6",
+   "u": "https://macetesgta6.com.br/en/tip/gta-6-rare-car-locations-randy/"
+  },
+  "xtreme": {
+   "n": "GTA Xtreme",
+   "u": "https://www.gta-xtreme.com/gta-6/locations/hidden-cars"
+  },
+  "leonidaplayers": {
+   "n": "Leonida Players",
+   "u": "https://leonidaplayers.com/guides/gta-6-standout-vehicles-rare-car-locations-list"
+  },
+  "egamers": {
+   "n": "EGamersWorld",
+   "u": "https://egamersworld.com/blog/gta-6-standout-vehicles-all-rare-car-types-and-whe-dha39M0YT8"
+  },
+  "gtascoop": {
+   "n": "GTA Scoop",
+   "u": "https://gtascoop.com/guides/gta-6-rare-car-locations/"
+  },
+  "gamesggcars": {
+   "n": "games.gg (carros)",
+   "u": "https://games.gg/grand-theft-auto-vi/guides/rare-car-locations-grand-theft-auto-6-three-finds/"
+  },
+  "gameta": {
+   "n": "gameta",
+   "u": "https://gameta.gg/gta6/guides/rare-cars/"
+  },
+  "querobolsa": {
+   "n": "Quero Bolsa Revista",
+   "u": "https://querobolsa.com.br/revista/easter-eggs-de-gta-6"
+  }
+ },
+ "cats": {
+  "piada": {
+   "n": "Piada da Rockstar",
+   "c": "var(--pink)"
+  },
+  "misterio": {
+   "n": "Mistério",
+   "c": "var(--violet)"
+  },
+  "gta": {
+   "n": "Jogos antigos",
+   "c": "var(--orange)"
+  },
+  "pop": {
+   "n": "Cultura pop",
+   "c": "var(--teal)"
+  },
+  "encontro": {
+   "n": "Encontro aleatório",
+   "c": "var(--yellow)"
+  }
+ },
+ "eggs": [
+  {
+   "id": "ovo-na-torre",
+   "t": "Um ovo de Páscoa de verdade",
+   "cat": "piada",
+   "ok": true,
+   "d": "A Rockstar levou o termo ao pé da letra: no alto da torre de rádio mais alta da região tem um ninho cheio de ovos coloridos. Dá pra ver essa torre desde o primeiro trailer.",
+   "w": "Topo da torre de TV em Bluegrass, a oeste de Southside (South Vice-Dale County)",
+   "how": [
+    "Vá até a torre de TV vermelha e branca em Bluegrass, a oeste de Southside, em South Vice-Dale County. É a torre que aparece no primeiro trailer.",
+    "Suba pelas escadas até o topo. A subida leva de 6 a 7 minutos.",
+    "Pegue um dos ovos do ninho e jogue lá de cima: ele cai no para-brisa de um motorista numa cena curta, uma piscadinha pra um easter egg parecido de GTA Vice City.",
+    "Bônus: da mesma plataforma começa um salto de BASE jump com checkpoints."
+   ],
+   "src": [
+    "gamespot",
+    "gta6info",
+    "wikigtavi",
+    "gamingbible",
+    "gamesggen",
+    "buzzfeed"
+   ],
+   "added": "2026-11-19",
+   "map": [
+    0.565,
+    0.6467
+   ],
+   "mapApprox": false,
+   "video": {
+    "id": "ZHRcZCXxFDQ"
+   },
+   "dif": "Médio",
+   "tempo": "15 min",
+   "g": [
+    -2608,
+    -2023
+   ]
+  },
+  {
+   "id": "apartamento-dexter",
+   "t": "O apartamento do Dexter",
+   "cat": "pop",
+   "ok": true,
+   "d": "O prédio onde morava Dexter Morgan, da série Dexter, está no jogo com o nome Trinity Apartments. No terraço tem o \"kit\" do personagem (faca, seringa, fita, corda), e nas docas tem um barco igual ao Slice of Life.",
+   "w": "Washington Island, Vice City, perto da loja Top Fun Drones em Vice Beach",
+   "how": [
+    "Vá até Washington Island, em Vice City.",
+    "Procure o prédio perto da loja Top Fun Drones, em Vice Beach.",
+    "Não dá pra entrar no apartamento. Explore o terraço e as docas ao redor.",
+    "Repare nos NPCs que aparecem no terraço: eles também fazem parte da referência."
+   ],
+   "src": [
+    "gamespot",
+    "gta6info",
+    "gamesgg",
+    "zaccox",
+    "leonida",
+    "buzzfeed",
+    "egwall"
+   ],
+   "added": "2026-11-19",
+   "map": [
+    0.854,
+    0.428
+   ],
+   "mapApprox": false,
+   "video": {
+    "id": "Y3x6MO3jEOk",
+    "by": "NickNasty"
+   },
+   "dif": "Médio",
+   "tempo": "15 min",
+   "g": [
+    1348,
+    2044
+   ]
+  },
+  {
+   "id": "skunk-ape",
+   "t": "O Pé-Grande de Leonida: o Skunk Ape",
+   "cat": "misterio",
+   "ok": true,
+   "d": "O Pé-Grande de Leonida é o Skunk Ape, criatura do folclore da Flórida. Ele tem até uma missão secundária, que começa com um telefone de \"vítima do bicho\" pendurado em postos de gasolina da região.",
+   "w": "Grassrivers (região dos pântanos)",
+   "how": [
+    "Leia um panfleto do Skunk Ape (eles ficam pendurados em postos de gasolina da região) pra liberar a caçada de verdade.",
+    "Vá até o Cottonmouth Lake, ao sul de Hamlet, em Grassrivers. Numa estrada de terra, o Skunk Ape aparece comendo um cervo.",
+    "Siga o bicho pela mata até um boneco amarrado numa árvore e examine.",
+    "Seu personagem desmaia e acorda onde viu a criatura pela primeira vez. Depois disso, começa a missão do Kirk."
+   ],
+   "note": "Existe um boato de que, ao final da caçada, o personagem vira um sapo. Ainda não foi confirmado.",
+   "src": [
+    "leonida",
+    "wikigtavi",
+    "endgame",
+    "zaccox",
+    "correio",
+    "egwall"
+   ],
+   "added": "2026-11-19",
+   "map": [
+    0.5065,
+    0.7817
+   ],
+   "mapApprox": false,
+   "video": {
+    "id": "_OHlCq-GPFQ"
+   },
+   "dif": "Difícil",
+   "tempo": "30+ min",
+   "g": [
+    -3393,
+    -4609
+   ]
+  },
+  {
+   "id": "abducao-port-gellhorn",
+   "t": "Abdução alienígena perto do Starlet Motel",
+   "cat": "misterio",
+   "ok": true,
+   "d": "De madrugada, numa estrada de Kelly County, aparece um carro com o pisca-alerta ligado. Siga a trilha até a mata, ajude a mulher e volte pro carro dela: o OVNI leva você, e você acorda três dias depois com o troféu escondido \"The Truth Is Out There\".",
+   "w": "Estrada a noroeste do Starlet Motel, em Kelly County, depois das 2h",
+   "how": [
+    "Vá até a estrada a noroeste do Starlet Motel, em Kelly County, depois das 2h da manhã (horário do jogo).",
+    "Procure um carro parado com luzes piscando.",
+    "Siga a trilha até a mata e ajude a mulher.",
+    "Volte andando até o carro dela. O OVNI aparece e leva você.",
+    "Você acorda três dias depois e ganha o troféu \"The Truth Is Out There\"."
+   ],
+   "note": "Não acontece todas as vezes. Se não aparecer, tente em outra noite. Dormir no esconderijo depois de ver o OVNI libera uma sequência jogável dentro da nave.",
+   "src": [
+    "wikigtavi",
+    "outputlag",
+    "zaccox",
+    "leonida",
+    "egwall",
+    "buzzfeed"
+   ],
+   "added": "2026-11-19",
+   "map": [
+    0.3798,
+    0.3652
+   ],
+   "mapApprox": true,
+   "video": {
+    "id": "JLtOSzjF-4g"
+   },
+   "dif": "Difícil",
+   "tempo": "30+ min",
+   "g": [
+    -5212,
+    3561
+   ]
+  },
+  {
+   "id": "cachorro-jet-ski",
+   "t": "O cachorro que pilota jet ski",
+   "cat": "encontro",
+   "ok": true,
+   "d": "Se você nadar longe da costa, um cachorro de colete salva-vidas aparece pilotando um jet ski. Ele te leva de volta, ou até a Dog Island se você ficar a bordo, onde desenterra uma carteira. O cão é inspirado na Loosy, uma cachorra de verdade.",
+   "w": "Mar aberto e depois Dog Island",
+   "how": [
+    "Fique perdido no mar, de preferência na Gambit Bay, e preste atenção nos latidos.",
+    "Suba no jet ski do cachorro.",
+    "Se ficar a bordo, ele te leva até a Dog Island e desenterra uma carteira com cerca de US$ 1.200."
+   ],
+   "note": "Parece ser um encontro aleatório, então pode não acontecer na primeira tentativa.",
+   "src": [
+    "gta6info",
+    "wikigtavi",
+    "leonida",
+    "buzzfeed"
+   ],
+   "added": "2026-11-19",
+   "video": {
+    "id": "xv9kuTgZrM4"
+   },
+   "map": [
+    0.5585,
+    0.8026
+   ],
+   "mapApprox": true,
+   "dif": "Médio",
+   "tempo": "Depende da sorte",
+   "g": [
+    -2672,
+    -5047
+   ]
+  },
+  {
+   "id": "livro-red-dead",
+   "t": "Livro de faroeste que cita Red Dead",
+   "cat": "gta",
+   "ok": true,
+   "d": "O romance \"The Cowboy's Prayer Is to Die Young\", de Elijah G. Rubens, conta a história de um caubói de New Austin, região dos jogos Red Dead Redemption. É mais uma dica de que Red Dead e GTA se passam no mesmo universo.",
+   "w": "Vários lugares. Um exemplar está no Jacob's Tavern, em Millport",
+   "how": [
+    "Vá até o Jacob's Tavern, em Millport.",
+    "Procure livros e revistas que dá pra ler pelo ambiente.",
+    "Abra o romance de faroeste."
+   ],
+   "src": [
+    "gta6info",
+    "g6wiki",
+    "buzzfeed"
+   ],
+   "added": "2026-11-19",
+   "game": "Red Dead Redemption",
+   "map": [
+    0.6708,
+    0.2162
+   ],
+   "mapApprox": false,
+   "dif": "Fácil",
+   "tempo": "5 min",
+   "g": [
+    -1103,
+    6481
+   ]
+  },
+  {
+   "id": "memorias-liberty-city",
+   "t": "Memórias de um mafioso de Liberty City",
+   "cat": "gta",
+   "ok": true,
+   "d": "Na casa do Jason tem um livro de memórias, \"Lethal by Design\", escrito por um ex-membro do crime organizado de Liberty City, a cidade de GTA IV.",
+   "w": "Casa do Jason em Key Lento, na mesa redonda perto da porta dos fundos",
+   "how": [
+    "Entre na casa do Jason.",
+    "Vá até a mesinha perto da porta dos fundos.",
+    "Leia o livro de memórias."
+   ],
+   "src": [
+    "gamespot",
+    "outputlag",
+    "wikigtavi",
+    "zaccox",
+    "leonida",
+    "egwall"
+   ],
+   "added": "2026-11-19",
+   "game": "GTA IV",
+   "map": [
+    0.5649,
+    0.8562
+   ],
+   "mapApprox": true,
+   "dif": "Fácil",
+   "tempo": "2 min",
+   "g": [
+    -2354,
+    -5532
+   ]
+  },
+  {
+   "id": "gps-los-santos",
+   "t": "O GPS do barco mostra Los Santos",
+   "cat": "gta",
+   "ok": true,
+   "d": "O barco parado no quintal do Jason tem um GPS, e a tela mostra o mapa de Los Santos, a cidade de GTA V. Tem quem chame de \"barco do Michael\".",
+   "w": "Quintal do esconderijo do Jason",
+   "how": [
+    "Vá até o esconderijo do Jason.",
+    "Chegue perto do barco no quintal.",
+    "Olhe para a tela do GPS."
+   ],
+   "src": [
+    "wikigtavi",
+    "gamesgg",
+    "zaccox",
+    "buzzfeed",
+    "egwall"
+   ],
+   "added": "2026-11-19",
+   "game": "GTA V",
+   "map": [
+    0.5845,
+    0.8562
+   ],
+   "mapApprox": true,
+   "dif": "Fácil",
+   "tempo": "2 min",
+   "g": [
+    -2340,
+    -5545
+   ]
+  },
+  {
+   "id": "toque-do-michael",
+   "t": "O toque de celular do Michael",
+   "cat": "gta",
+   "ok": true,
+   "d": "Dá pra escolher no celular o toque \"Wind Chimes\", o mesmo do Michael em GTA V.",
+   "w": "Configurações do celular",
+   "how": [
+    "Abra o celular no jogo.",
+    "Vá nas configurações de toque.",
+    "Escolha \"Wind Chimes\"."
+   ],
+   "src": [
+    "gamesgg",
+    "g6wiki",
+    "zaccox",
+    "buzzfeed"
+   ],
+   "added": "2026-11-19",
+   "game": "GTA V",
+   "dif": "Fácil",
+   "tempo": "1 min"
+  },
+  {
+   "id": "wade-podcast",
+   "t": "Wade, de GTA V, num podcast",
+   "cat": "gta",
+   "ok": true,
+   "d": "Wade, o parceiro atrapalhado do Trevor em GTA V, aparece num podcast chamado Final Act. Outro podcast, F*ck, Marry, Murder, comenta histórias de GTA IV.",
+   "w": "Podcast Final Act",
+   "how": [
+    "Procure o podcast Final Act pelo jogo.",
+    "Ouça até o Wade aparecer."
+   ],
+   "src": [
+    "outputlag",
+    "leonida"
+   ],
+   "added": "2026-11-19",
+   "game": "GTA V",
+   "dif": "Fácil",
+   "tempo": "5 min"
+  },
+  {
+   "id": "fabien-larouche",
+   "t": "Fabien LaRouche numa revista de academia",
+   "cat": "gta",
+   "ok": true,
+   "d": "Uma reportagem da revista Body Copy fala de Fabien LaRouche, o professor de yoga do Michael em GTA V, que agora trabalha num asilo. A revista fica na varanda da casa do Jason.",
+   "w": "Varanda da casa do Jason, em Key Lento",
+   "how": [
+    "Procure revistas que dá pra ler.",
+    "Encontre a revista de academia com o Fabien LaRouche."
+   ],
+   "src": [
+    "outputlag",
+    "wikigtavi",
+    "zaccox",
+    "leonida",
+    "buzzfeed"
+   ],
+   "added": "2026-11-19",
+   "game": "GTA V",
+   "dif": "Fácil",
+   "tempo": "2 min"
+  },
+  {
+   "id": "conversa-mount-chiliad",
+   "t": "Papo sobre o Mount Chiliad no bar",
+   "cat": "gta",
+   "ok": true,
+   "d": "Dois clientes de um bar conversam sobre o bunker com jetpacks embaixo do Mount Chiliad, um dos maiores mistérios de GTA V e GTA Online.",
+   "w": "Bar perto do ponto de encontro com Donny e Brian (começo da história)",
+   "how": [
+    "Quando o Donny te chamar para encontrar ele e o Brian, entre no bar ao lado do ponto de encontro.",
+    "Fique perto dos dois clientes e escute a conversa."
+   ],
+   "note": "Compartilhado no Reddit por Tr1angleChoke.",
+   "src": [
+    "outputlag",
+    "leonida",
+    "gamingbible2",
+    "buzzfeed"
+   ],
+   "added": "2026-11-19",
+   "game": "GTA V",
+   "dif": "Fácil",
+   "tempo": "5 min"
+  },
+  {
+   "id": "rx-men",
+   "t": "RX-Men: a paródia de X-Men",
+   "cat": "pop",
+   "ok": false,
+   "d": "Na banca de revistas de uma loja de conveniência tem o gibi RX-Men, da ED Comics, uma paródia clara de X-Men. A capa tem personagens parecidos com Gambit, Magneto, Jubileu e Ciclope. Os heróis têm tema de remédio, e o vilão se chama Dr. Placebo.",
+   "w": "Loja 24/7 em Key Lento, perto do esconderijo do Jason",
+   "how": [
+    "Vá até a 24/7 em Key Lento.",
+    "Vá até a banca de revistas dentro da loja.",
+    "Leia o gibi RX-Men."
+   ],
+   "src": [
+    "egw",
+    "buzzfeed"
+   ],
+   "added": "2026-11-20",
+   "map": [
+    0.5747,
+    0.8445
+   ],
+   "mapApprox": true,
+   "dif": "Fácil",
+   "tempo": "5 min",
+   "g": [
+    -1979,
+    -5335
+   ]
+  },
+  {
+   "id": "casa-san-andreas",
+   "t": "A casa da foto de San Andreas e o teórico da simulação",
+   "cat": "gta",
+   "ok": true,
+   "d": "Em GTA San Andreas: Definitive Edition (2021), uma foto misteriosa de uma casa ficava na parede do Lil' Probe'Inn. A casa está em GTA 6, em Belville, e a garagem esconde o quartel-general de um teórico da conspiração convencido de que vive numa simulação.",
+   "w": "Belville, Leonida",
+   "how": [
+    "Vá até Belville, em Leonard County, de dia e fora de missão.",
+    "Procure a casa da foto: quem achou primeiro foi Jared, do Discord do projeto de mapeamento de GTA 6.",
+    "Entre na garagem. Num quadro está escrito \"IT'S A SIMULATION\", e as anotações falam de pessoas iguais, gente atravessando paredes e as bordas do mapa."
+   ],
+   "src": [
+    "g6wiki",
+    "kotaku",
+    "vgc",
+    "gamerpapers",
+    "buzzfeed"
+   ],
+   "added": "2026-11-19",
+   "game": "GTA San Andreas",
+   "map": [
+    0.6689,
+    0.3908
+   ],
+   "mapApprox": false,
+   "dif": "Médio",
+   "tempo": "10 min",
+   "g": [
+    -1215,
+    2883
+   ]
+  },
+  {
+   "id": "pedras-mount-kalaga",
+   "t": "Pedras e cratera no Mount Kalaga",
+   "cat": "misterio",
+   "ok": true,
+   "d": "No alto do Mount Kalaga tem pedras em pé, como num círculo antigo, e uma cratera de meteoro.",
+   "w": "Topo do Mount Kalaga",
+   "how": [
+    "Suba até o topo do Mount Kalaga.",
+    "Procure as pedras em pé e a cratera."
+   ],
+   "src": [
+    "wikigtavi",
+    "zaccox"
+   ],
+   "added": "2026-11-19",
+   "map": [
+    0.4968,
+    0.2126
+   ],
+   "mapApprox": true,
+   "dif": "Difícil",
+   "tempo": "20 min",
+   "g": [
+    -3430,
+    6371
+   ]
+  },
+  {
+   "id": "laboratorio-2314",
+   "t": "O laboratório alienígena secreto",
+   "cat": "misterio",
+   "ok": true,
+   "d": "Uma instalação do governo abandonada, debaixo da terra, com esqueletos de funcionários, militares e até vacas. Lá dentro dá pra reanimar um pequeno alienígena cinza, e como agradecimento um OVNI destrói três carros do governo. Faz parte da mesma história da abdução.",
+   "w": "\"Abandoned Site\", a nordeste do Cottonmouth Lake, perto de uma pista de pouso ao sul de Hamlet",
+   "how": [
+    "Primeiro, faça a abdução perto do Starlet Motel (a partir do Capítulo 2).",
+    "Depois da abdução, durma no esconderijo: no sonho, os alienígenas dão a dica do código.",
+    "Vá até o \"Abandoned Site\", a nordeste do Cottonmouth Lake, perto da pista de pouso ao sul de Hamlet.",
+    "Digite o código no teclado da porta. Muita gente usou 2314, mas ele pode mudar de jogador pra jogador: é sempre uma combinação dos números 1, 2, 3 e 4.",
+    "Desça de elevador, passe pelos esqueletos, aperte os botões do segundo painel e reanime o alienígena."
+   ],
+   "note": "Descoberta creditada a The Truth Hurts e NFXC. Outros jogadores relatam os códigos 4123 e 3412.",
+   "src": [
+    "wikigtavi",
+    "zaccox",
+    "aoeah",
+    "buzzfeed"
+   ],
+   "added": "2026-11-19",
+   "video": {
+    "id": "xACWThm6WUQ"
+   },
+   "map": [
+    0.552,
+    0.7608
+   ],
+   "mapApprox": true,
+   "dif": "Difícil",
+   "tempo": "30+ min",
+   "g": [
+    -2768,
+    -4231
+   ]
+  },
+  {
+   "id": "carinho-no-gato",
+   "t": "Fazer carinho em gato dá bônus",
+   "cat": "encontro",
+   "ok": true,
+   "d": "Dá pra fazer carinho nos cachorros e gatos que você encontra. E fazer carinho num gato dá ao Jason um pequeno bônus de foco.",
+   "w": "Qualquer lugar com animais",
+   "how": [
+    "Chegue perto de um cachorro ou gato.",
+    "Use a interação de fazer carinho."
+   ],
+   "src": [
+    "endgame",
+    "gamespot"
+   ],
+   "added": "2026-11-19",
+   "dif": "Fácil",
+   "tempo": "1 min"
+  },
+  {
+   "id": "adesivo-lil-probe-inn",
+   "t": "Adesivo do Lil' Probe'Inn e o incidente da Área 69",
+   "cat": "gta",
+   "game": "GTA San Andreas",
+   "ok": false,
+   "d": "Um adesivo de para-choque do Lil' Probe'Inn, o bar de caçadores de OVNI de San Andreas, faz referência ao \"incidente da Área 69\" de 1992, o ano em que se passa GTA San Andreas.",
+   "w": "Local ainda não detalhado",
+   "how": [
+    "Fique de olho nos para-choques dos carros e nos adesivos pelo mapa.",
+    "O local exato ainda não foi descrito por escrito. O vídeo do ZacCoxTV mostra o easter egg."
+   ],
+   "src": [
+    "zaccox"
+   ],
+   "added": "2026-11-20",
+   "video": {
+    "id": "bCKm934JnY0",
+    "by": "ZacCoxTV",
+    "multi": true
+   },
+   "dif": "Médio",
+   "tempo": "A confirmar"
+  },
+  {
+   "id": "casa-do-ovni",
+   "t": "A casa do OVNI",
+   "cat": "misterio",
+   "ok": false,
+   "d": "Uma casa ligada a OVNIs aparece entre os segredos já encontrados. É mais uma da longa lista de piadas da Rockstar com alienígenas.",
+   "w": "Local ainda não detalhado",
+   "how": [
+    "O local exato ainda não foi descrito por escrito. O vídeo do ZacCoxTV mostra o easter egg."
+   ],
+   "src": [
+    "zaccox"
+   ],
+   "added": "2026-11-20",
+   "video": {
+    "id": "bCKm934JnY0",
+    "by": "ZacCoxTV",
+    "multi": true
+   },
+   "dif": "Difícil",
+   "tempo": "A confirmar"
+  },
+  {
+   "id": "caranguejo-monstro",
+   "t": "O caranguejo monstro",
+   "cat": "misterio",
+   "ok": true,
+   "d": "Era só boato antes do lançamento, e agora é real: um caranguejo gigante mutante ataca o jogador numa instalação de pesquisa. Muita gente vê aí uma piada com o meme \"giant enemy crab\", da E3 de 2006.",
+   "w": "Numa instalação de pesquisa (local exato a confirmar)",
+   "how": [
+    "Explore as instalações de pesquisa abandonadas.",
+    "Prepare-se: o caranguejo ataca de surpresa."
+   ],
+   "note": "Mostrado em vídeo por @xGarbett.",
+   "src": [
+    "zaccox",
+    "leonida",
+    "buzzfeed"
+   ],
+   "added": "2026-11-20",
+   "dif": "Difícil",
+   "tempo": "A confirmar"
+  },
+  {
+   "id": "bunker-secreto",
+   "t": "Os bunkers secretos do presidente",
+   "cat": "misterio",
+   "ok": true,
+   "d": "No pântano de Grassrivers fica um bunker enorme com uma porta trancada que ninguém conseguia abrir. A pista do código está no alto de uma torre, e dentro dele começa uma caçada que leva a um segundo bunker, com um tanque de graça: o Hauners Ridgway.",
+   "w": "Pântano de Grassrivers (o segundo bunker fica no noroeste do pântano)",
+   "how": [
+    "Vá até o bunker trancado no pântano de Grassrivers.",
+    "Procure a torre ali perto: o código da porta está escrito lá em cima. Jogadores relatam o código 69185.",
+    "Dentro do bunker, abra o cofre e pegue a foto que está lá.",
+    "Vire a foto: a palavra no verso é a pista pro código do segundo bunker.",
+    "No segundo bunker, no noroeste de Grassrivers, você libera o tanque Hauners Ridgway e o fuzil Cold War 556."
+   ],
+   "src": [
+    "zaccox",
+    "egwall"
+   ],
+   "added": "2026-11-20",
+   "video": {
+    "id": "R8QNlqjufZg"
+   },
+   "note": "Os bunkers pertencem ao presidente Russo, segundo os vídeos que resolveram o mistério. Os códigos podem variar, então confira no vídeo.",
+   "map": [
+    0.4188,
+    0.6537
+   ],
+   "mapApprox": true,
+   "dif": "Difícil",
+   "tempo": "30+ min",
+   "g": [
+    -4626,
+    -2068
+   ]
+  },
+  {
+   "id": "postais-grand-senora",
+   "t": "Cartões-postais do Grand Senora Desert",
+   "cat": "gta",
+   "game": "GTA V",
+   "ok": false,
+   "d": "Dá pra encontrar cartões-postais do Grand Senora Desert, o deserto de San Andreas que aparece em GTA V (e já existia em San Andreas).",
+   "w": "Local ainda não detalhado",
+   "how": [
+    "O local exato ainda não foi descrito por escrito. O vídeo do ZacCoxTV mostra o easter egg."
+   ],
+   "src": [
+    "zaccox"
+   ],
+   "added": "2026-11-20",
+   "video": {
+    "id": "bCKm934JnY0",
+    "by": "ZacCoxTV",
+    "multi": true
+   },
+   "dif": "Médio",
+   "tempo": "A confirmar"
+  },
+  {
+   "id": "tommy-iguana",
+   "t": "Tommy, a iguana",
+   "cat": "gta",
+   "game": "GTA Vice City",
+   "ok": false,
+   "d": "Uma iguana chamada Tommy é uma piscadinha óbvia pra Tommy Vercetti, o protagonista de GTA Vice City.",
+   "w": "Local ainda não detalhado",
+   "how": [
+    "O local exato ainda não foi descrito por escrito. O vídeo do ZacCoxTV mostra o easter egg."
+   ],
+   "src": [
+    "zaccox"
+   ],
+   "added": "2026-11-20",
+   "video": {
+    "id": "bCKm934JnY0",
+    "by": "ZacCoxTV",
+    "multi": true
+   },
+   "dif": "Médio",
+   "tempo": "A confirmar"
+  },
+  {
+   "id": "placa-new-austin",
+   "t": "Placa de carro de New Austin",
+   "cat": "gta",
+   "game": "Red Dead Redemption",
+   "ok": false,
+   "d": "Uma placa de carro de New Austin, região dos jogos Red Dead Redemption, reforça a ligação entre Red Dead e GTA.",
+   "w": "Nos carros pelo mapa",
+   "how": [
+    "Repare nas placas dos carros.",
+    "O local exato ainda não foi descrito por escrito. O vídeo do ZacCoxTV mostra o easter egg."
+   ],
+   "src": [
+    "zaccox"
+   ],
+   "added": "2026-11-20",
+   "video": {
+    "id": "bCKm934JnY0",
+    "by": "ZacCoxTV",
+    "multi": true
+   },
+   "dif": "Fácil",
+   "tempo": "Depende da sorte"
+  },
+  {
+   "id": "race-and-chase",
+   "t": "Race and Chase 7",
+   "cat": "gta",
+   "game": "GTA (1997)",
+   "ok": false,
+   "d": "Um post no Snapmatic, a rede social do jogo, diz \"We really got barnyard blue games before RAC7\". RAC7 (Race and Chase 7) faz o papel de \"GTA 7\" no meme, e Race'n'Chase era o nome provisório do primeiro GTA, de 1997.",
+   "w": "Snapmatic (rede social do jogo)",
+   "how": [
+    "Abra o Snapmatic no celular do jogo e role os posts."
+   ],
+   "src": [
+    "zaccox",
+    "buzzfeed"
+   ],
+   "added": "2026-11-20",
+   "video": {
+    "id": "bCKm934JnY0",
+    "by": "ZacCoxTV",
+    "multi": true
+   },
+   "dif": "Fácil",
+   "tempo": "2 min"
+  },
+  {
+   "id": "parodia-goggins",
+   "t": "A paródia do David Goggins",
+   "cat": "pop",
+   "ok": false,
+   "d": "A Rockstar fez uma paródia de David Goggins, o ex-militar famoso pelos discursos motivacionais, numa marca chamada ORCA, ligada à casa do Jason.",
+   "w": "Perto do esconderijo do Jason",
+   "how": [
+    "Explore o esconderijo do Jason e os arredores.",
+    "O local exato ainda não foi descrito por escrito. O vídeo do ZacCoxTV mostra o easter egg."
+   ],
+   "src": [
+    "zaccox"
+   ],
+   "added": "2026-11-20",
+   "map": [
+    0.5552,
+    0.8468
+   ],
+   "mapApprox": true,
+   "video": {
+    "id": "bCKm934JnY0",
+    "by": "ZacCoxTV",
+    "multi": true
+   },
+   "dif": "Fácil",
+   "tempo": "5 min",
+   "g": [
+    -2710,
+    -5904
+   ]
+  },
+  {
+   "id": "seta-e-empurrar",
+   "t": "Seta que funciona e carro que dá pra empurrar",
+   "cat": "piada",
+   "ok": false,
+   "d": "Não é bem um segredo, mas virou assunto: em GTA 6 os carros têm seta (pisca-pisca) que funciona, e dá pra empurrar um carro parado.",
+   "w": "Em qualquer carro",
+   "how": [
+    "Entre num carro e use o comando da seta.",
+    "Pra empurrar, chegue por trás de um carro parado."
+   ],
+   "src": [
+    "zaccox"
+   ],
+   "added": "2026-11-20",
+   "video": {
+    "id": "bCKm934JnY0",
+    "by": "ZacCoxTV",
+    "multi": true
+   },
+   "dif": "Fácil",
+   "tempo": "1 min"
+  },
+  {
+   "id": "portal-vice-city",
+   "t": "O portal pra Vice City original",
+   "cat": "gta",
+   "game": "GTA Vice City",
+   "ok": true,
+   "d": "O segredo mais elaborado achado até agora: um quebra-cabeça espalhado por subestações de energia abre um portal pra Vice City de 2002, com os gráficos originais e Kent Paul de volta. Na saída, você ganha a camisa havaiana e a moto do Tommy Vercetti.",
+   "w": "Torre de rádio de Key Lento, 12 subestações da LPL e a T.H. (Tortoise Head) Power Station",
+   "how": [
+    "Comece pela torre de rádio de Key Lento, que ativa o quebra-cabeça.",
+    "Nas subestações de energia, repare nas letras pintadas nas paredes. Juntas, formam \"Life is passing me by\", um código de trapaça de GTA Vice City.",
+    "Um pôster numa subestação, com um controle de PlayStation e a frase \"Lose track of time\", confirma a pista.",
+    "Visite 12 subestações numa ordem específica, sem viagem rápida (helicóptero ajuda). Em cada uma, aperte os botões e puxe as alavancas: cada letra corresponde a um botão do controle.",
+    "Depois da última, chega uma mensagem de texto indicando um reator.",
+    "Vá até a T.H. (Tortoise Head) Power Station entre 19h e 6h (horário do jogo). O portal aparece lá dentro.",
+    "Entre no portal. Ao sair, você recebe a camisa havaiana e a moto do Tommy Vercetti."
+   ],
+   "note": "Descoberto pelo jogador Memeio depois de três dias juntando pistas. A ordem e o local das 12 subestações ainda não foram publicados por escrito.",
+   "src": [
+    "forbes",
+    "purexbox"
+   ],
+   "added": "2026-11-25",
+   "video": {
+    "id": "t3zvakxz0js"
+   },
+   "dif": "Difícil",
+   "tempo": "1 h+"
+  },
+  {
+   "id": "papagaio-tony",
+   "t": "O papagaio que entrega onde está o dinheiro",
+   "cat": "gta",
+   "game": "GTA San Andreas",
+   "ok": true,
+   "d": "Um papagaio vermelho numa gaiola lembra o Tony, o papagaio falante de GTA San Andreas. Pergunte sobre o dinheiro e ele entrega o esconderijo.",
+   "w": "Atrás da Three Sheets Liquor, em Key Lento",
+   "how": [
+    "Faça o recado de rum da Shirley e volte na Three Sheets Liquor, em Key Lento.",
+    "Nos fundos da loja, pergunte ao papagaio sobre o dinheiro. Ele responde \"generator\".",
+    "Abra a saída de ar branca ao lado do gerador amarelo: tem mais de US$ 1.300 lá dentro."
+   ],
+   "note": "Ficou famoso num vídeo de ProfessorMikeX no X.",
+   "src": [
+    "gamerpapers",
+    "buzzfeed"
+   ],
+   "map": [
+    0.5877,
+    0.8492
+   ],
+   "mapApprox": true,
+   "added": "2026-11-25",
+   "video": {
+    "id": "cgoccIWZD9U"
+   },
+   "dif": "Fácil",
+   "tempo": "5 min",
+   "g": [
+    -2261,
+    -5971
+   ]
+  },
+  {
+   "id": "ritual-capri",
+   "t": "O ritual demoníaco no galpão de Capri",
+   "cat": "misterio",
+   "ok": true,
+   "d": "Num galpão abandonado tem um pentagrama desenhado com sangue, um altar e um diário dizendo que a única saída é queimar. Coloque alguém desacordado no pentagrama e o jogo vira filme de terror.",
+   "w": "Galpão abandonado perto do Tortoise Lake, em Capri",
+   "how": [
+    "Vá até o galpão abandonado perto do Tortoise Lake, na região de Capri.",
+    "Leve um NPC desacordado e coloque-o em cima do pentagrama.",
+    "As luzes se apagam e a criatura aparece. Tiro não funciona: só fogo (coquetel molotov ou galão de gasolina)."
+   ],
+   "note": "Mostrado em vídeo por Gator Keys e por @xGarbett no X.",
+   "src": [
+    "gamerpapers",
+    "buzzfeed",
+    "canaltech"
+   ],
+   "map": [
+    0.2772,
+    0.5211
+   ],
+   "mapApprox": true,
+   "added": "2026-11-25",
+   "video": {
+    "id": "xrxpN5q4WVc"
+   },
+   "dif": "Difícil",
+   "tempo": "20 min",
+   "g": [
+    -6604,
+    596
+   ]
+  },
+  {
+   "id": "tartarugas-ninja",
+   "t": "O esgoto das Tartarugas Ninja",
+   "cat": "pop",
+   "ok": true,
+   "d": "Um canal de concreto com água verde brilhante soltando vapor à noite, quatro tartaruguinhas e caixas de pizza na beirada. Não precisa dizer mais nada.",
+   "w": "Ponta sudeste do Lake Tallaloko, em East Lummox County, ao norte de Millport",
+   "how": [
+    "Vá até a ponta sudeste do Lake Tallaloko, ao norte de Millport.",
+    "Vá à noite, quando a água verde solta vapor.",
+    "Procure as quatro tartarugas e as caixas de pizza na beira do canal."
+   ],
+   "note": "O vídeo de MoonTV8125 no X passou de 1 milhão de visualizações.",
+   "src": [
+    "gamerpapers",
+    "egwt2"
+   ],
+   "map": [
+    0.6397,
+    0.1744
+   ],
+   "added": "2026-11-25",
+   "video": {
+    "id": "rRQVZ_9e8wQ"
+   },
+   "dif": "Médio",
+   "tempo": "15 min",
+   "g": [
+    -1654,
+    7104
+   ]
+  },
+  {
+   "id": "exterminador-2",
+   "t": "A cena do Exterminador do Futuro 2",
+   "cat": "pop",
+   "ok": false,
+   "d": "Uma cena recria o momento de Terminator 2: Judgment Day em que o personagem de Arnold Schwarzenegger tira uma arma de uma caixa de flores.",
+   "w": "Perto da Tallaloko Dam, não muito longe de Millport",
+   "how": [
+    "Vá até a região da Tallaloko Dam, perto de Millport.",
+    "O resto do passo a passo ainda não foi detalhado por escrito."
+   ],
+   "src": [
+    "egwt2"
+   ],
+   "map": [
+    0.6526,
+    0.1814
+   ],
+   "mapApprox": true,
+   "added": "2026-11-25",
+   "dif": "Médio",
+   "tempo": "10 min",
+   "g": [
+    -1475,
+    6960
+   ]
+  },
+  {
+   "id": "bones-mario",
+   "t": "Os bonés do Mario e do Luigi",
+   "cat": "pop",
+   "ok": true,
+   "d": "Numa ruína no meio da floresta, um bong leva o Jason a uma viagem psicodélica. Lá em cima ele encontra um bloco invisível, e batendo a cabeça nele caem dois bonés: um com a letra J e outro com a letra L. É uma referência aos bonés de Mario e Luigi.",
+   "w": "Ruínas na floresta de Lummox County, ao norte de Mount Kalaga",
+   "how": [
+    "Vá até Lummox County, ao norte de Mount Kalaga, pela estrada sinuosa.",
+    "Nas ruínas no meio da floresta, procure o bong e use.",
+    "Suba a estrutura até o bloco invisível.",
+    "Pule e bata a cabeça no bloco, ou atire nele. Caem os bonés J e L."
+   ],
+   "src": [
+    "canaltech",
+    "purexbox"
+   ],
+   "map": [
+    0.4968,
+    0.1744
+   ],
+   "mapApprox": true,
+   "added": "2026-11-25",
+   "video": {
+    "id": "4W5aSkPq5Cg"
+   },
+   "note": "Alguns vídeos apontam o local como a área \"Water Wheel Meditation\", perto da Lawton Co. Paper Mill, em Moreau. É a mesma região do norte de Lummox County.",
+   "dif": "Médio",
+   "tempo": "15 min",
+   "g": [
+    -3628,
+    7194
+   ]
+  },
+  {
+   "id": "carro-paul-walker",
+   "t": "O carro do Brian em Velozes e Furiosos",
+   "cat": "pop",
+   "ok": true,
+   "d": "Uma réplica do Mitsubishi Eclipse verde de 1995 do Brian O'Conner (Paul Walker), do primeiro Velozes e Furiosos, fica escondida numa garagem. Dá pra roubar logo no começo do jogo.",
+   "w": "Garagem de uma mansão em Vespucci Island (Rialto Islands, Vice City)",
+   "how": [
+    "Vá até a mansão em Vespucci Island, nas Rialto Islands (Vice City).",
+    "Abra a porta de enrolar da garagem, não a porta lateral: assim o alarme não dispara.",
+    "Se o alarme tocar, desligue no painel da parede pra polícia não aparecer.",
+    "Saia dirigindo o Eclipse. Pra ficar com ele de vez, é preciso liberar o Pay 'n' Spray no Capítulo 2. Antes disso, deixe o carro estacionado no esconderijo."
+   ],
+   "src": [
+    "leonida",
+    "buzzfeed"
+   ],
+   "map": [
+    0.7968,
+    0.4862
+   ],
+   "added": "2026-11-25",
+   "video": {
+    "id": "tWl5WqKLIEs"
+   },
+   "dif": "Médio",
+   "tempo": "15 min",
+   "g": [
+    568,
+    950
+   ]
+  },
+  {
+   "id": "chapeu-arthur-morgan",
+   "t": "O chapéu do Arthur Morgan",
+   "cat": "gta",
+   "game": "Red Dead Redemption 2",
+   "ok": true,
+   "d": "Um chapéu de caubói igual ao de Arthur Morgan, protagonista de Red Dead Redemption 2, está à venda num bazar de garagem por poucos dólares.",
+   "w": "Bazar de garagem em Port Gellhorn",
+   "how": [
+    "Vá até o bazar de garagem em Port Gellhorn.",
+    "Procure o chapéu de caubói no sofá, em cima de um estojo de violão.",
+    "Compre: ele fica no seu guarda-roupa."
+   ],
+   "note": "As fontes divergem no preço (US$ 5 ou US$ 35).",
+   "src": [
+    "leonida",
+    "buzzfeed"
+   ],
+   "map": [
+    0.2921,
+    0.3503
+   ],
+   "mapApprox": true,
+   "added": "2026-11-25",
+   "dif": "Fácil",
+   "tempo": "10 min",
+   "g": [
+    -6426,
+    3905
+   ]
+  },
+  {
+   "id": "placa-seinfeld",
+   "t": "A placa \"ASSMAN\" de Seinfeld",
+   "cat": "pop",
+   "ok": false,
+   "d": "Era boato e apareceu: um carro vermelho antigo, estacionado na grama, tem a placa \"ASSMAN\", a mesma de um episódio famoso de Seinfeld.",
+   "w": "Carro vermelho antigo estacionado na grama (local a confirmar)",
+   "how": [
+    "Procure um carro vermelho antigo estacionado na grama.",
+    "O local exato ainda não foi divulgado."
+   ],
+   "note": "Achado por u/discfunctional no Reddit.",
+   "src": [
+    "buzzfeed"
+   ],
+   "added": "2026-11-25",
+   "dif": "Médio",
+   "tempo": "A confirmar"
+  },
+  {
+   "id": "adesivo-love-fist",
+   "t": "Adesivo do Love Fist no Starlet Motel",
+   "cat": "gta",
+   "game": "GTA Vice City",
+   "ok": false,
+   "d": "Love Fist, a banda escocesa de rock de GTA Vice City, aparece num adesivo colado numa porta do Starlet Motel.",
+   "w": "Starlet Motel, em Kelly County",
+   "how": [
+    "Vá até o Starlet Motel.",
+    "Procure o adesivo nas portas."
+   ],
+   "src": [
+    "buzzfeed"
+   ],
+   "map": [
+    0.3896,
+    0.3736
+   ],
+   "mapApprox": true,
+   "added": "2026-11-25",
+   "dif": "Fácil",
+   "tempo": "5 min",
+   "g": [
+    -5366,
+    3476
+   ]
+  },
+  {
+   "id": "hulk-vermelho",
+   "t": "O personagem parecido com o Hulk Vermelho",
+   "cat": "pop",
+   "ok": false,
+   "d": "Numa missão secundária na zona rural aparece um personagem muito parecido com o Hulk Vermelho, da Marvel. A Kotaku chegou a perguntar sobre ele pra Rockstar.",
+   "w": "Missão secundária na zona rural",
+   "how": [
+    "Faça as missões secundárias da zona rural."
+   ],
+   "note": "Apareceu numa reação do iShowSpeed no YouTube.",
+   "src": [
+    "buzzfeed",
+    "egw"
+   ],
+   "added": "2026-11-25",
+   "dif": "Médio",
+   "tempo": "20 min"
+  },
+  {
+   "id": "influencer-torre",
+   "t": "O influencer da torre de rádio",
+   "cat": "encontro",
+   "ok": false,
+   "d": "Em outra torre de rádio (não a do ninho de ovos) dá pra topar com um influencer escalando a torre pra fazer conteúdo.",
+   "w": "Uma torre de rádio (local a confirmar)",
+   "how": [
+    "Suba as outras torres de rádio de Leonida."
+   ],
+   "src": [
+    "gamesggen"
+   ],
+   "added": "2026-11-25",
+   "dif": "Médio",
+   "tempo": "A confirmar"
+  },
+  {
+   "id": "caminhao-chiliad",
+   "t": "O caminhão com o olho do Mount Chiliad",
+   "cat": "gta",
+   "game": "GTA V",
+   "ok": false,
+   "d": "Um caminhão coberto de teorias da conspiração tem pintado o \"olho\" do mural do Mount Chiliad, o grande mistério de GTA V.",
+   "w": "Caminhão pelas estradas (local a confirmar)",
+   "how": [
+    "Fique de olho nos caminhões cobertos de pichações e teorias da conspiração."
+   ],
+   "src": [
+    "gamesggen"
+   ],
+   "added": "2026-11-25",
+   "dif": "Médio",
+   "tempo": "Depende da sorte"
+  },
+  {
+   "id": "adesivo-petty",
+   "t": "Adesivo \"Petty Forever\"",
+   "cat": "pop",
+   "ok": false,
+   "d": "Um adesivo \"Petty Forever\" numa porta de loja homenageia Tom Petty, que tem várias músicas na rádio V-Rock do jogo.",
+   "w": "Porta de uma loja (local a confirmar)",
+   "how": [
+    "Repare nos adesivos das portas das lojas."
+   ],
+   "src": [
+    "buzzfeed"
+   ],
+   "added": "2026-11-25",
+   "dif": "Médio",
+   "tempo": "A confirmar"
+  },
+  {
+   "id": "estatua-cavalos-manifest",
+   "t": "A estátua dos quatro cavalos no Manifest Canyon",
+   "cat": "misterio",
+   "ok": false,
+   "d": "Perto do Manifest Canyon há uma estátua com quatro cavalos cobertos de símbolos estranhos. Quem chega perto sente o controle vibrar e ouve bipes sem explicação. Um dos cavalos usa um cone de trânsito na cabeça, o que lembra a famosa estátua do Duque de Wellington em Glasgow, cidade onde fica a Rockstar North.",
+   "w": "Perto do Manifest Canyon",
+   "how": [
+    "Vá até a região do Manifest Canyon.",
+    "Procure a estátua com quatro cavalos.",
+    "Chegue bem perto e repare na vibração do controle e nos bipes."
+   ],
+   "note": "Ainda não se sabe se faz parte de um mistério maior. Encontrado pelo usuário akspree no Reddit.",
+   "src": [
+    "gamingbible"
+   ],
+   "added": "2026-11-25",
+   "dif": "Médio",
+   "tempo": "10 min"
+  },
+  {
+   "id": "ponto-bob-esponja",
+   "t": "O ponto de ônibus do Bob Esponja",
+   "cat": "pop",
+   "ok": false,
+   "d": "Um dos pontos de ônibus de Leonida foi desenhado pra parecer a casa de abacaxi do Bob Esponja.",
+   "w": "Beira de estrada (local exato a confirmar)",
+   "how": [
+    "Ande pelas estradas de Leonida de olho nos pontos de ônibus.",
+    "Procure um com formato de abacaxi."
+   ],
+   "src": [
+    "querobolsa"
+   ],
+   "added": "2026-11-25",
+   "dif": "Médio",
+   "tempo": "A confirmar"
+  },
+  {
+   "id": "little-sam",
+   "t": "\"Little Sam\": uma ponta do Sam Houser?",
+   "cat": "gta",
+   "ok": false,
+   "d": "Numa missão da história aparece um senhor calado vestindo camiseta da Rockstar Games. Tudo indica que seja uma homenagem a Sam Houser, cofundador da Rockstar. Um desenvolvedor da Rockstar North não confirmou nem negou, e disse que não se surpreenderia se fosse ele.",
+   "w": "Durante uma missão da história",
+   "how": [
+    "Jogue as missões da história com atenção aos figurantes.",
+    "Procure um homem mais velho com camiseta da Rockstar Games."
+   ],
+   "note": "Não informamos a missão para evitar spoiler.",
+   "src": [
+    "leonida"
+   ],
+   "added": "2026-11-25",
+   "dif": "Fácil",
+   "tempo": "Na história"
+  },
+  {
+   "id": "ocean-view-hotel",
+   "t": "O Ocean View Hotel de Vice City",
+   "cat": "gta",
+   "ok": false,
+   "d": "O Ocean View Hotel, o primeiro esconderijo do Tommy Vercetti em GTA Vice City (2002), voltou em alta definição. Na frente dele há um carro esportivo amarelo estacionado no mesmo lugar do jogo original.",
+   "w": "Vice City",
+   "how": [
+    "Vá até a orla de Vice City.",
+    "Procure o Ocean View Hotel e o carro amarelo na frente."
+   ],
+   "src": [
+    "querobolsa"
+   ],
+   "added": "2026-11-25",
+   "dif": "Fácil",
+   "tempo": "5 min",
+   "g": [
+    1960,
+    639
+   ],
+   "gOnly": true
+  },
+  {
+   "id": "big-smoke-cigar",
+   "t": "A tabacaria Big Smoke Cigar Co.",
+   "cat": "gta",
+   "ok": true,
+   "d": "Uma loja de charutos com o nome de Big Smoke, o famoso traidor de GTA San Andreas, aparece nas ruas de Vice City.",
+   "w": "Ruas do centro de Vice City",
+   "how": [
+    "Dirija pelo centro de Vice City olhando as fachadas.",
+    "Procure a placa Big Smoke Cigar Co. Ela também aparece durante uma perseguição."
+   ],
+   "src": [
+    "gamesggen",
+    "querobolsa"
+   ],
+   "added": "2026-11-25",
+   "dif": "Fácil",
+   "tempo": "5 min"
+  },
+  {
+   "id": "phil-ammu-nation",
+   "t": "A Ammu-Nation do Phil Cassidy",
+   "cat": "gta",
+   "ok": true,
+   "d": "Uma loja de armas de Vice City leva o nome de Phil, numa homenagem a Phil Cassidy, o vendedor de armas da era 3D da série. Ele já aparecia num comercial de TV do segundo trailer.",
+   "w": "Vice City",
+   "how": [
+    "Procure as lojas Ammu-Nation de Vice City.",
+    "Repare no nome \"Phil\" na fachada e nos comerciais de TV."
+   ],
+   "src": [
+    "querobolsa",
+    "beebom"
+   ],
+   "added": "2026-11-25",
+   "dif": "Fácil",
+   "tempo": "5 min",
+   "g": [
+    -1812,
+    -2463
+   ],
+   "gOnly": true
+  },
+  {
+   "id": "dinheiro-red-dead",
+   "t": "Notas de dólar com políticos de Red Dead",
+   "cat": "gta",
+   "ok": false,
+   "d": "As notas de dinheiro do jogo trazem os rostos de Thaddeus Waxman e Franklin Hardin, nomes da política em Red Dead Redemption 2.",
+   "w": "Qualquer maço de dinheiro",
+   "how": [
+    "Use o Modo Foto perto de dinheiro.",
+    "Ou repare nos maços durante os assaltos."
+   ],
+   "src": [
+    "querobolsa"
+   ],
+   "added": "2026-11-25",
+   "dif": "Fácil",
+   "tempo": "1 min"
+  },
+  {
+   "id": "brasao-leonida",
+   "t": "O brasão de Leonida com um jacaré",
+   "cat": "piada",
+   "ok": false,
+   "d": "O brasão oficial do estado mostra uma pessoa sendo devorada por um jacaré, uma piada com as notícias de \"Florida Man\". O jogo também tem jacaré dentro de loja de conveniência e outros figurantes no mesmo espírito.",
+   "w": "Símbolos oficiais de Leonida",
+   "how": [
+    "Repare no brasão do estado em prédios e documentos oficiais."
+   ],
+   "src": [
+    "querobolsa"
+   ],
+   "added": "2026-11-25",
+   "dif": "Fácil",
+   "tempo": "2 min"
+  },
+  {
+   "id": "qr-code-peekhole",
+   "t": "O QR code de verdade nos cartazes da Peekhole",
+   "cat": "piada",
+   "ok": false,
+   "d": "Os cartazes da Peekhole têm um QR code que funciona de verdade: escaneado com o celular, ele abre o site oficial do GTA 6.",
+   "w": "Cartazes da Peekhole pela cidade",
+   "how": [
+    "Encontre um cartaz da Peekhole.",
+    "Aponte a câmera do seu celular para o QR code na tela."
+   ],
+   "src": [
+    "querobolsa"
+   ],
+   "added": "2026-11-25",
+   "dif": "Fácil",
+   "tempo": "2 min"
+  },
+  {
+   "id": "rampa-base-militar",
+   "t": "A rampa pra pular na base militar",
+   "cat": "encontro",
+   "ok": false,
+   "d": "Ao lado da base militar há uma rampa que permite pular o muro de carro e entrar no pátio, onde dá pra roubar um jato.",
+   "w": "Base militar",
+   "how": [
+    "Dê a volta na base militar até achar a rampa lateral.",
+    "Acelere bastante pela rampa pra passar do muro.",
+    "Já dentro do pátio, pegue um jato."
+   ],
+   "note": "Espere reação dos militares assim que entrar.",
+   "src": [
+    "querobolsa"
+   ],
+   "added": "2026-11-25",
+   "dif": "Difícil",
+   "tempo": "10 min"
+  },
+  {
+   "id": "npc-teleporte",
+   "t": "O NPC que fica imortal e teleporta",
+   "cat": "misterio",
+   "ok": false,
+   "d": "Alguns jogadores contam que, à noite, ao mirar um rifle de precisão num certo NPC, ele fica invencível e aparece de repente atrás do jogador.",
+   "w": "Mundo aberto, à noite",
+   "how": [
+    "À noite, mire com um rifle de precisão em NPCs isolados.",
+    "Veja se algum deles para de levar dano e some."
+   ],
+   "note": "Ainda não se sabe se é proposital ou um bug. Relatado pelo usuário seepa-man no Reddit.",
+   "src": [
+    "gamingbible"
+   ],
+   "added": "2026-11-25",
+   "dif": "Difícil",
+   "tempo": "Depende da sorte"
+  }
+ ],
+ "mysteries": [
+  {
+   "q": "Quais são as 12 subestações do portal de Vice City, e em que ordem?",
+   "k": "O quebra-cabeça já foi resolvido pelo jogador Memeio, mas a lista das subestações e a ordem certa ainda não foram publicadas por escrito.",
+   "egg": "portal-vice-city"
+  },
+  {
+   "q": "O Skunk Ape transforma você num sapo?",
+   "k": "Circula a história de que, no fim da caçada ao Pé-Grande, o personagem vira um sapo. Ninguém confirmou ainda.",
+   "egg": "skunk-ape"
+  },
+  {
+   "q": "O que faz a abdução não acontecer?",
+   "k": "O passo a passo já é conhecido, mas o evento não dispara todas as vezes. Ninguém descobriu ainda a condição exata.",
+   "egg": "abducao-port-gellhorn"
+  },
+  {
+   "q": "Como se libera a rádio secreta Vault?",
+   "k": "Jogadores contam que um pôster de boate comum libera uma estação de rádio secreta. O passo a passo ainda não está claro.",
+   "src": "edinburgh"
+  }
+ ],
+ "site": {
+  "name": "Easter Eggs GTA 6",
+  "url": "https://eastereggsgta6.com.br",
+  "updated": "2026-11-27",
+  "instagram": "egggta6",
+  "email": "eastereggsgta6@gmail.com",
+  "tiktok": "egggta6",
+  "adsense": "ca-pub-4127341528478866",
+  "fotos": true
+ },
+ "games": [
+  {
+   "n": "GTA (1997)",
+   "y": 1997
+  },
+  {
+   "n": "GTA Vice City",
+   "y": 2002
+  },
+  {
+   "n": "GTA San Andreas",
+   "y": 2004
+  },
+  {
+   "n": "GTA IV",
+   "y": 2008
+  },
+  {
+   "n": "Red Dead Redemption",
+   "y": 2010
+  },
+  {
+   "n": "GTA V",
+   "y": 2013
+  },
+  {
+   "n": "Red Dead Redemption 2",
+   "y": 2018
+  }
+ ],
+ "cheats": {
+  "known": [
+   {
+    "cat": "Jogador",
+    "n": "US$ 250.000",
+    "e": "Adiciona US$ 250.000 ao seu dinheiro. É o único cheat de dinheiro.",
+    "code": "↑ → ↓ ← ↑ ← ↓ →",
+    "unlock": "Terminar a história"
+   },
+   {
+    "cat": "Jogador",
+    "n": "Foco infinito",
+    "e": "O Foco nunca acaba.",
+    "code": "↓ ↑ ↑ ↓ ↑ ↓ ↑ ↓ ↑ →",
+    "unlock": "Terminar a história"
+   },
+   {
+    "cat": "Jogador",
+    "n": "Colete à prova de balas",
+    "e": "Coloca colete no seu equipamento.",
+    "code": "↓ ↑ ← ↑ ↑ ↑ ↑ ↑ ↓ ↓",
+    "unlock": "Fazer 100 treinos na academia"
+   },
+   {
+    "cat": "Jogador",
+    "n": "Aumentar o calor",
+    "e": "Aumenta o seu nível de calor (heat) no mapa todo.",
+    "code": "← ↓ → ↓ ↑ ↓ ↑",
+    "unlock": "Escapar de 3 estrelas de procurado 25 vezes"
+   },
+   {
+    "cat": "Jogador",
+    "n": "Aumentar o nível de procurado",
+    "e": "Aumenta as estrelas de procurado.",
+    "code": "← ↓ → ↓ ↑ → ↑",
+    "unlock": "Escapar de 3 estrelas de procurado 50 vezes"
+   },
+   {
+    "cat": "Combate",
+    "n": "Munição máxima",
+    "e": "Enche todas as armas que você carrega.",
+    "code": "↓ ↑ → ↓ ← ← ↑ ↑ ↓ ←",
+    "unlock": "Ganhar 25 medalhas de bronze ou melhor nos estandes de tiro"
+   },
+   {
+    "cat": "Combate",
+    "n": "Munição infinita",
+    "e": "A munição nunca acaba.",
+    "code": "↓ ↑ → ↓ ← ← ↑ ↓ ↓ ↓",
+    "unlock": "Ganhar 25 medalhas de prata ou melhor nos estandes de tiro"
+   },
+   {
+    "cat": "Combate",
+    "n": "Sem recarregar",
+    "e": "Munição infinita, sem precisar recarregar.",
+    "code": "↓ ↑ → ↓ ← ← ↑ ↓ ↓ ↑",
+    "unlock": "Ganhar 25 medalhas de ouro nos estandes de tiro"
+   },
+   {
+    "cat": "Combate",
+    "n": "Força de ataque",
+    "e": "Tiros e golpes arremessam as pessoas longe.",
+    "code": "↓ ↑ ← ← → ↓ ↓ ↑ ↓",
+    "unlock": "Terminar a história"
+   },
+   {
+    "cat": "Combate",
+    "n": "Bolas explosivas",
+    "e": "Bolas esportivas explodem ao bater.",
+    "code": "↓ ↑ ← ← → ↓ ↓ ↑ →",
+    "unlock": "Acertar 20 inimigos com dano explosivo"
+   },
+   {
+    "cat": "Veículo",
+    "n": "Força do veículo",
+    "e": "Quem é atingido pelo seu veículo voa longe.",
+    "code": "↓ ↑ ← ← → ↓ ← ↑ ↓",
+    "unlock": "Matar 25 inimigos com um veículo"
+   },
+   {
+    "cat": "Ambiente",
+    "n": "Mudar o clima",
+    "e": "Troca para o próximo tipo de clima.",
+    "code": "↓ → ↑ ↓ → ↑ →",
+    "unlock": "Terminar a história"
+   },
+   {
+    "cat": "Veículo",
+    "n": "Maibatsu Boomazoom",
+    "e": "Cria um na sua frente.",
+    "code": "← ↑ → ↓ ← ← ↑ ←",
+    "unlock": "Completar 5 desafios de compras"
+   },
+   {
+    "cat": "Veículo",
+    "n": "MTL Pumper (caminhão de bombeiro)",
+    "e": "Cria um na sua frente.",
+    "code": "← ↑ → ↓ ← → → ↑",
+    "unlock": "Descobrir o MTL Pumper (menu Progresso)"
+   },
+   {
+    "cat": "Veículo",
+    "n": "HVY Bulldozer",
+    "e": "Cria um na sua frente.",
+    "code": "← ↑ → ↓ ← → → ↓",
+    "unlock": "Descobrir o HVY Bulldozer (menu Progresso)"
+   },
+   {
+    "cat": "Filtro de tela",
+    "n": "Cataclysm",
+    "e": "Deixa o mundo turvo e enfumaçado.",
+    "code": "↓ ↓ ↑ → → ↑ ← ← → →",
+    "unlock": "Descobrir o Martha's Vamos (menu Progresso)"
+   },
+   {
+    "cat": "Filtro de tela",
+    "n": "Dollhouse",
+    "e": "Cores vivas e imagem estreita.",
+    "code": "↓ ↓ ↑ → → ↑ ← ← ↓ →",
+    "unlock": "Passar 8 horas com seu parceiro"
+   },
+   {
+    "cat": "Filtro de tela",
+    "n": "Faded Glory",
+    "e": "Visual de TV de tubo antiga.",
+    "code": "↓ ↓ ↑ → → ↑ ← ← ← →",
+    "unlock": "Roubar 50 lojas com seu parceiro"
+   }
+  ],
+  "unknown": [
+   {
+    "cat": "Jogador",
+    "n": "Bêbado",
+    "unlock": "Gastar US$ 2.500 em bebida"
+   },
+   {
+    "cat": "Jogador",
+    "n": "Sem dano de queda",
+    "unlock": "Sobreviver 20 vezes a quedas de 12 metros"
+   },
+   {
+    "cat": "Jogador",
+    "n": "Paraquedas",
+    "unlock": "Fazer 50 saltos de paraquedas ou BASE jumps de 90 metros ou mais"
+   },
+   {
+    "cat": "Jogador",
+    "n": "Consertar veículo",
+    "unlock": "Vencer 10 corridas no Gellhorn Raceway, Thrillbilly Mud Club e Boone Speedway"
+   },
+   {
+    "cat": "Jogador",
+    "n": "Nitro infinito",
+    "unlock": "Completar 50 saltos de dublê"
+   },
+   {
+    "cat": "Combate",
+    "n": "Todas as armas explosivas",
+    "unlock": "Jogar 100 granadas"
+   },
+   {
+    "cat": "Combate",
+    "n": "Munição incendiária",
+    "unlock": "Queimar 100 inimigos"
+   },
+   {
+    "cat": "Combate",
+    "n": "Garrafas explosivas",
+    "unlock": "Jogar 100 coquetéis molotov"
+   },
+   {
+    "cat": "Combate",
+    "n": "Escopeta explosiva",
+    "unlock": "Acertar 100 inimigos com dano explosivo"
+   },
+   {
+    "cat": "Combate",
+    "n": "Hauners H-AT",
+    "unlock": "Explodir 100 veículos"
+   },
+   {
+    "cat": "Ambiente",
+    "n": "Avançar o tempo",
+    "unlock": "Achar 10 relógios colecionáveis"
+   },
+   {
+    "cat": "Ambiente",
+    "n": "Pausar a hora do dia",
+    "unlock": "Achar 20 relógios colecionáveis"
+   },
+   {
+    "cat": "Veículo",
+    "n": "Interstate Ambulance",
+    "unlock": "Descobrir a Interstate Ambulance (menu Progresso)"
+   },
+   {
+    "cat": "Veículo",
+    "n": "Airboat 09",
+    "unlock": "Completar 5 desafios de sobrevivência"
+   },
+   {
+    "cat": "Veículo",
+    "n": "Bravado Banshee",
+    "unlock": "Completar todos os desafios de combate"
+   },
+   {
+    "cat": "Veículo",
+    "n": "Tuff BMX",
+    "unlock": "Completar 5 desafios de condicionamento"
+   },
+   {
+    "cat": "Veículo",
+    "n": "Nagasaki Carbon RS",
+    "unlock": "Completar todos os desafios de exploração"
+   },
+   {
+    "cat": "Veículo",
+    "n": "'65 Vapid Dominator",
+    "unlock": "Completar todos os desafios de condicionamento"
+   },
+   {
+    "cat": "Veículo",
+    "n": "Progen Emerus",
+    "unlock": "Completar todos os desafios de veículos"
+   },
+   {
+    "cat": "Veículo",
+    "n": "Flamingo inflável",
+    "unlock": "Destruir 50 flamingos de cocaína"
+   },
+   {
+    "cat": "Veículo",
+    "n": "Vapid Stainer G2 Taxi",
+    "unlock": "Completar 5 desafios de esportes"
+   },
+   {
+    "cat": "Veículo",
+    "n": "Hauners P-996 Lazer (jato)",
+    "unlock": "Completar todos os desafios"
+   },
+   {
+    "cat": "Veículo",
+    "n": "Lapwing Mallard",
+    "unlock": "Completar 5 desafios de veículos"
+   },
+   {
+    "cat": "Veículo",
+    "n": "Brimstone Golfer",
+    "unlock": "Completar todos os desafios de esportes"
+   },
+   {
+    "cat": "Veículo",
+    "n": "Hauners Rhino (tanque)",
+    "unlock": "Completar todos os desafios de sobrevivência"
+   },
+   {
+    "cat": "Veículo",
+    "n": "Maibatsu Sanchez",
+    "unlock": "Completar 5 desafios criminosos"
+   },
+   {
+    "cat": "Veículo",
+    "n": "Nagasaki Sea Sparrow",
+    "unlock": "Completar 5 desafios de exploração"
+   },
+   {
+    "cat": "Veículo",
+    "n": "Speeder 700 GT",
+    "unlock": "Completar 5 desafios de combate"
+   },
+   {
+    "cat": "Veículo",
+    "n": "Truffade Thrax",
+    "unlock": "Completar todos os desafios de compras"
+   },
+   {
+    "cat": "Veículo",
+    "n": "Western Zombie Bobber",
+    "unlock": "Completar todos os desafios criminosos"
+   },
+   {
+    "cat": "Filtro de tela",
+    "n": "Golden Hour",
+    "unlock": "Passar 4 horas de mãos dadas"
+   },
+   {
+    "cat": "Filtro de tela",
+    "n": "Powdered Sugar",
+    "unlock": "Escanear todo o lixo espacial com o WAiNK"
+   },
+   {
+    "cat": "Filtro de tela",
+    "n": "Pinhole",
+    "unlock": "Limpar 25 operações de gangue com seu parceiro"
+   },
+   {
+    "cat": "Filtro de tela",
+    "n": "Neon Jungle",
+    "unlock": "Descobrir os 16 veículos Girlypop"
+   },
+   {
+    "cat": "Filtro de tela",
+    "n": "Yesteryear",
+    "unlock": "Descobrir o Ridgway"
+   },
+   {
+    "cat": "Filtro de tela",
+    "n": "Videotape",
+    "unlock": "Fazer 50 atividades com seu parceiro"
+   },
+   {
+    "cat": "Filtro de tela",
+    "n": "Dark Mirror",
+    "unlock": "Faturar US$ 500.000 vendendo veículos"
+   },
+   {
+    "cat": "Filtro de tela",
+    "n": "Migraine",
+    "unlock": "Sobreviver 6 minutos com 6 estrelas de procurado"
+   },
+   {
+    "cat": "Filtro de tela",
+    "n": "Bubblegum",
+    "unlock": "Achar as 24 cartas colecionáveis Vice City Flamingos"
+   },
+   {
+    "cat": "Filtro de tela",
+    "n": "Fast Forward",
+    "unlock": "Fazer 50 meditações"
+   },
+   {
+    "cat": "Filtro de tela",
+    "n": "Fisheye",
+    "unlock": "Pescar 100 peixes"
+   },
+   {
+    "cat": "Filtro de tela",
+    "n": "Pixel Art",
+    "unlock": "Faturar US$ 250.000 vendendo colecionáveis"
+   },
+   {
+    "cat": "Filtro de tela",
+    "n": "Hellscape",
+    "unlock": "Roubar 100 viaturas da polícia"
+   }
+  ],
+  "src": [
+   "gtaside",
+   "vice",
+   "redbull",
+   "keengamer",
+   "rarethief",
+   "gamertweak",
+   "beebom"
+  ]
+ },
+ "cars": [
+  {
+   "id": "pegassi-infernus-96",
+   "t": "Pegassi Infernus '96",
+   "tipo": "Superesportivo",
+   "ok": true,
+   "wish": true,
+   "w": "7º andar do estacionamento da delegacia de Crosstown (NW 9th St), Vice City",
+   "access": "Chave clonada (Capítulo 3)",
+   "how": [
+    "Vá até a delegacia de Crosstown, na NW 9th St.",
+    "Espere um policial abrir o portão do estacionamento e entre atrás dele sem ser visto.",
+    "Suba até o 7º andar, onde o carro fica.",
+    "Pra fugir, use o salto de dublê do último andar em vez de descer passando pelos policiais."
+   ],
+   "src": [
+    "gtabay",
+    "macetes"
+   ],
+   "map": [
+    0.7111,
+    0.4964
+   ],
+   "added": "2026-11-25",
+   "video": {
+    "id": "iEDhjT9L00Q"
+   },
+   "color": "#8b5cf6",
+   "shape": "super",
+   "g": [
+    -614,
+    805
+   ]
+  },
+  {
+   "id": "pegassi-vitello",
+   "t": "Pegassi Vitello",
+   "tipo": "Superesportivo",
+   "ok": true,
+   "wish": true,
+   "w": "Mansão na Flamingo Pkwy, Waning Sands (Leonard County)",
+   "access": "Chave clonada (Capítulo 3)",
+   "how": [
+    "De Belville, siga pro leste até Waning Sands e procure a mansão na Flamingo Pkwy.",
+    "Pule a cerca.",
+    "O carro fica na garagem ao lado da casa, à direita de quem olha a entrada.",
+    "Se quiser fugir rápido, plante explosivos no portão antes, sem detonar. O carro é muito rápido e fácil de bater."
+   ],
+   "note": "Um dos guias chama esse carro de Pegassi Vacca.",
+   "src": [
+    "gtabay",
+    "xtreme",
+    "macetes"
+   ],
+   "map": [
+    0.7579,
+    0.3163
+   ],
+   "added": "2026-11-25",
+   "video": {
+    "id": "gW6Lk1v5EVI",
+    "multi": true,
+    "pt": true
+   },
+   "color": "#ffd23f",
+   "shape": "super",
+   "g": [
+    2,
+    4274
+   ]
+  },
+  {
+   "id": "pegassi-tempesta",
+   "t": "Pegassi Tempesta",
+   "tipo": "Superesportivo",
+   "ok": true,
+   "wish": true,
+   "w": "NE 3rd St, Vice City, por volta das 13h",
+   "access": "Evento com guincho",
+   "how": [
+    "Vá até a NE 3rd St, em Vice City, por volta das 13h.",
+    "O dono está discutindo com o motorista do guincho, e o carro já está em cima do caminhão.",
+    "Assuste o dono e leve o carro."
+   ],
+   "src": [
+    "gtabay",
+    "macetes",
+    "xtreme"
+   ],
+   "map": [
+    0.6819,
+    0.5095
+   ],
+   "mapApprox": true,
+   "added": "2026-11-25",
+   "video": {
+    "id": "gW6Lk1v5EVI",
+    "multi": true,
+    "pt": true
+   },
+   "color": "#2de2c8",
+   "shape": "super",
+   "g": [
+    -1016,
+    569
+   ]
+  },
+  {
+   "id": "pegassi-toros",
+   "t": "Pegassi Toros",
+   "tipo": "SUV de luxo",
+   "ok": true,
+   "wish": true,
+   "w": "Pegassi Residences, Bayside Dr, Tequesta Retreat, por volta das 18h30",
+   "access": "Guardas e rastreador",
+   "how": [
+    "Siga pela Bayside Dr até a entrada da Pegassi Residences, em Tequesta Retreat.",
+    "Vá por volta das 18h30.",
+    "Tem guardas por perto. O carro é lento pra um superesportivo, e uma batida pode disparar o rastreador."
+   ],
+   "src": [
+    "gtabay",
+    "xtreme"
+   ],
+   "map": [
+    0.7468,
+    0.597
+   ],
+   "added": "2026-11-25",
+   "video": {
+    "id": "gW6Lk1v5EVI",
+    "multi": true,
+    "pt": true
+   },
+   "color": "#f4eefc",
+   "shape": "suv",
+   "g": [
+    -36,
+    -980
+   ]
+  },
+  {
+   "id": "bravado-gauntlet-hellfire",
+   "t": "Bravado Gauntlet Hellfire",
+   "tipo": "Muscle car",
+   "ok": true,
+   "wish": true,
+   "w": "Ferro-velho a leste do Boone Speedway, Hamlet",
+   "access": "Qualquer horário",
+   "how": [
+    "Vá até o ferro-velho logo a leste do Boone Speedway, em Hamlet.",
+    "O carro fica no fundo.",
+    "Vá abaixado pelo lado direito, e ninguém vê você."
+   ],
+   "note": "Os guias chamam o ferro-velho de M7 (na Galerina St) ou de Nova Auto Junkyard.",
+   "src": [
+    "gtabay",
+    "macetes"
+   ],
+   "map": [
+    0.5585,
+    0.7119
+   ],
+   "mapApprox": true,
+   "added": "2026-11-25",
+   "video": {
+    "id": "gW6Lk1v5EVI",
+    "multi": true,
+    "pt": true
+   },
+   "color": "#ff6a3d",
+   "shape": "muscle",
+   "g": [
+    -2687,
+    -3286
+   ]
+  },
+  {
+   "id": "grotti-itali-rsx",
+   "t": "Grotti Itali RSX",
+   "tipo": "Superesportivo",
+   "ok": true,
+   "wish": true,
+   "w": "Garagem de uma casa em Vespucci Island (Rialto Islands)",
+   "access": "Chave clonada, alarme e rastreador avançado",
+   "how": [
+    "Vá até a casa em Vespucci Island.",
+    "Pule a cerca de madeira e vá até a porta da direita da garagem.",
+    "Use a chave clonada. Quebrar o vidro não funciona, porque o carro tem alarme."
+   ],
+   "src": [
+    "gtabay",
+    "gamesggcars",
+    "gtascoop"
+   ],
+   "map": [
+    0.7903,
+    0.4825
+   ],
+   "mapApprox": true,
+   "added": "2026-11-25",
+   "video": {
+    "id": "gW6Lk1v5EVI",
+    "multi": true,
+    "pt": true
+   },
+   "color": "#ff3d8b",
+   "shape": "super",
+   "g": [
+    477,
+    1026
+   ]
+  },
+  {
+   "id": "bravado-banshee",
+   "t": "Bravado Banshee",
+   "tipo": "Esportivo",
+   "ok": false,
+   "wish": true,
+   "w": "Em frente ao Sweet Bay Inn, East Buckley Dr, Capri, entre 3h e 4h",
+   "access": "Horário específico",
+   "how": [
+    "Vá até a East Buckley Dr, em Capri, entre 3h e 4h da manhã.",
+    "Procure o carro em frente ao Sweet Bay Inn."
+   ],
+   "note": "Os guias não concordam: um deles aponta uma concessionária no nordeste de Southside, a oeste de Peacock Bay.",
+   "src": [
+    "macetes",
+    "gtabay"
+   ],
+   "map": [
+    0.2772,
+    0.5327
+   ],
+   "mapApprox": true,
+   "added": "2026-11-25",
+   "video": {
+    "id": "HaPuYwM-LWs"
+   },
+   "color": "#4f8bff",
+   "shape": "sport",
+   "g": [
+    -6602,
+    371
+   ]
+  },
+  {
+   "id": "mamba-gt",
+   "t": "Mamba GT",
+   "tipo": "Clássico esportivo",
+   "ok": true,
+   "wish": true,
+   "w": "Mansão em Leaf Links, Vice Beach",
+   "access": "Liberado pelo trabalho ¡Dale Mamba!",
+   "how": [
+    "O carro entra na lista depois de algumas entregas do trabalho paralelo ¡Dale Mamba!.",
+    "Vá até a mansão em Leaf Links. Tem muitos guardas.",
+    "A chave fica numa tigela atrás do sofá, na casa principal, depois da piscina.",
+    "O carro está atrás do prédio, à direita. A Snap Gun abre as portas."
+   ],
+   "src": [
+    "gtabay",
+    "macetes",
+    "xtreme"
+   ],
+   "map": [
+    0.7858,
+    0.4048
+   ],
+   "added": "2026-11-25",
+   "video": {
+    "id": "LzvmRyPKDwQ"
+   },
+   "color": "#e8d5a8",
+   "shape": "classic",
+   "g": [
+    402,
+    2538
+   ]
+  },
+  {
+   "id": "piccia-furia",
+   "t": "Piccia Furia",
+   "tipo": "Superesportivo",
+   "ok": true,
+   "wish": true,
+   "w": "Mansão na Palladia Ln, Peacock Estates (Peacock Bay)",
+   "access": "Garagem",
+   "how": [
+    "Entre em Peacock Estates e ache a mansão com portão na Palladia Ln.",
+    "Não vá pelo portão da frente: siga pela esquerda e pule a sebe.",
+    "Vá pela faixa entre a garagem e a água até a porta da garagem."
+   ],
+   "src": [
+    "gtabay",
+    "xtreme"
+   ],
+   "map": [
+    0.6656,
+    0.663
+   ],
+   "mapApprox": true,
+   "added": "2026-11-25",
+   "video": {
+    "id": "gW6Lk1v5EVI",
+    "multi": true,
+    "pt": true
+   },
+   "color": "#ff9a3c",
+   "shape": "super",
+   "g": [
+    -1215,
+    -2403
+   ]
+  },
+  {
+   "id": "emerus-purple-drank",
+   "t": "Progen Purple Drank Emerus",
+   "tipo": "Superesportivo",
+   "ok": true,
+   "w": "Contêiner na Chatfield Storage & Logistics, Waxman Island",
+   "access": "Destrancado, sem rastreador",
+   "how": [
+    "Vá até a Chatfield Storage & Logistics, em Waxman Island.",
+    "O carro fica dentro de um contêiner perto da água. Às vezes aparece na frente dos contêineres.",
+    "Está destrancado e sem rastreador. É o melhor superesportivo pra pegar cedo: vale cerca de US$ 30 mil."
+   ],
+   "src": [
+    "leonidaplayers",
+    "egamers",
+    "gtascoop"
+   ],
+   "map": [
+    0.7877,
+    0.5351
+   ],
+   "added": "2026-11-25",
+   "video": {
+    "id": "bosu3boqt4Q"
+   },
+   "color": "#a64dff",
+   "shape": "super",
+   "g": [
+    450,
+    5
+   ]
+  },
+  {
+   "id": "emerus-royal-ruby",
+   "t": "Progen Royal Ruby Emerus",
+   "tipo": "Superesportivo",
+   "ok": true,
+   "w": "Garagem pequena na entrada da Vespucci Mansion, Neptune Circle, Vespucci Island",
+   "access": "Destrancado",
+   "how": [
+    "Vá até a Vespucci Mansion, saindo da Neptune Circle, em Vespucci Island.",
+    "O carro fica na garagem pequena da entrada.",
+    "Vende por cerca de US$ 33 mil, ou registre por US$ 29.900."
+   ],
+   "src": [
+    "leonidaplayers",
+    "egamers",
+    "gtascoop"
+   ],
+   "map": [
+    0.802,
+    0.4899
+   ],
+   "mapApprox": true,
+   "added": "2026-11-25",
+   "video": {
+    "id": "-a-jE_Lsbbo"
+   },
+   "color": "#e0213f",
+   "shape": "super",
+   "g": [
+    640,
+    874
+   ]
+  },
+  {
+   "id": "thrax-andrew-node",
+   "t": "Truffade Thrax do Andrew Node",
+   "tipo": "Hipercarro",
+   "ok": true,
+   "w": "Garagem de mansão na Sabal Cir, sul de Starfish Island",
+   "access": "Destrancado",
+   "how": [
+    "Vá até a mansão na Sabal Cir, no sul de Starfish Island.",
+    "O Thrax personalizado do Andrew Node fica na garagem.",
+    "Vende por US$ 23.375. Registrar custa US$ 70 mil."
+   ],
+   "src": [
+    "leonidaplayers",
+    "gameta"
+   ],
+   "map": [
+    0.8085,
+    0.5211
+   ],
+   "added": "2026-11-25",
+   "video": {
+    "id": "1FZTJlxuLlw",
+    "multi": true
+   },
+   "color": "#c9ced8",
+   "shape": "super",
+   "g": [
+    735,
+    264
+   ]
+  },
+  {
+   "id": "comet-class-act",
+   "t": "Pfister Class Act Comet",
+   "tipo": "Esportivo",
+   "ok": true,
+   "w": "Entrada de uma mansão no sudoeste de Starfish Island",
+   "access": "Chave clonada (Capítulo 3)",
+   "how": [
+    "Vá até o sudoeste de Starfish Island.",
+    "O carro fica no canto da entrada de uma mansão, na frente de duas portas de garagem.",
+    "Use a chave clonada."
+   ],
+   "src": [
+    "leonidaplayers",
+    "egamers"
+   ],
+   "map": [
+    0.8007,
+    0.5178
+   ],
+   "mapApprox": true,
+   "added": "2026-11-25",
+   "video": {
+    "id": "1FZTJlxuLlw",
+    "multi": true
+   },
+   "color": "#2de2c8",
+   "shape": "sport",
+   "g": [
+    627,
+    333
+   ]
+  },
+  {
+   "id": "phoenix-bloodbath",
+   "t": "Imponte Bloodbath Phoenix",
+   "tipo": "Muscle car",
+   "ok": true,
+   "w": "Slator Towing Inc, entre a SW 7th e a SW 8th Ave, Salton",
+   "access": "Destrancado",
+   "how": [
+    "Vá até a Slator Towing Inc, em Salton.",
+    "Pule o muro baixo pela SW 8th Ave.",
+    "O carro fica embaixo do toldo de metal."
+   ],
+   "src": [
+    "leonidaplayers",
+    "egamers"
+   ],
+   "map": [
+    0.6299,
+    0.543
+   ],
+   "added": "2026-11-25",
+   "video": {
+    "id": "1FZTJlxuLlw",
+    "multi": true
+   },
+   "color": "#9e1b2f",
+   "shape": "muscle",
+   "g": [
+    -1728,
+    -49
+   ]
+  },
+  {
+   "id": "hustler-red-hot",
+   "t": "Vapid Red Hot Hustler",
+   "tipo": "Clássico",
+   "ok": true,
+   "w": "Estacionamento do La Costa Hotel, na Vela Rota Dr, Capri",
+   "access": "Trancado, com alarme",
+   "how": [
+    "Vá até o hotel da praia na Vela Rota Dr, em Capri.",
+    "O carro fica num canto do estacionamento dos fundos.",
+    "Está trancado e tem alarme. Vende por US$ 6.545."
+   ],
+   "src": [
+    "leonidaplayers",
+    "egamers"
+   ],
+   "map": [
+    0.2694,
+    0.5258
+   ],
+   "mapApprox": true,
+   "added": "2026-11-25",
+   "video": {
+    "id": "1FZTJlxuLlw",
+    "multi": true
+   },
+   "color": "#ff4040",
+   "shape": "classic",
+   "g": [
+    -6711,
+    510
+   ]
+  },
+  {
+   "id": "gauntlet-devils-rope",
+   "t": "Bravado Devil's Rope Gauntlet",
+   "tipo": "Muscle car",
+   "ok": false,
+   "w": "Dentro da Hog Stars Garage, Acacia St, Ambrosia",
+   "access": "Pela claraboia do telhado",
+   "how": [
+    "Vá até a Hog Stars Garage, na Acacia St, em Ambrosia.",
+    "Suba pela escada do lado sudoeste e entre pela claraboia.",
+    "Cuidado com os cachorros.",
+    "Vale a pena: vende por US$ 21.890 e registra por só US$ 8.500."
+   ],
+   "src": [
+    "leonidaplayers"
+   ],
+   "map": [
+    0.5604,
+    0.3522
+   ],
+   "mapApprox": true,
+   "added": "2026-11-25",
+   "video": {
+    "id": "1FZTJlxuLlw",
+    "multi": true
+   },
+   "color": "#2a2533",
+   "shape": "muscle",
+   "g": [
+    -2720,
+    3700
+   ]
+  },
+  {
+   "id": "hauners-ridgway",
+   "t": "Hauners Ridgway (tanque)",
+   "tipo": "Militar",
+   "ok": false,
+   "w": "Na frente do bunker secreto, no noroeste do pântano de Grassrivers",
+   "access": "Destrancado",
+   "how": [
+    "Vá até o noroeste do pântano de Grassrivers.",
+    "Procure o bunker secreto: o tanque fica parado na frente.",
+    "Descobrir o Ridgway também libera o filtro de tela Yesteryear nos cheats."
+   ],
+   "note": "Pode ser o mesmo bunker do easter egg \"O bunker secreto\".",
+   "src": [
+    "leonidaplayers"
+   ],
+   "map": [
+    0.4188,
+    0.6537
+   ],
+   "mapApprox": true,
+   "added": "2026-11-25",
+   "video": {
+    "id": "R8QNlqjufZg"
+   },
+   "color": "#7a8450",
+   "shape": "tank",
+   "g": [
+    -4626,
+    -2068
+   ]
+  },
+  {
+   "id": "penumbra-ff-paul-walker",
+   "t": "Maibatsu '97 Penumbra FF (carro do Paul Walker)",
+   "tipo": "Esportivo",
+   "ok": true,
+   "egg": "carro-paul-walker",
+   "w": "Garagem de uma casa em Vespucci Island",
+   "access": "Destrancado, sem rastreador",
+   "how": [
+    "É o carro verde de Velozes e Furiosos. O passo a passo completo está na página do easter egg."
+   ],
+   "src": [
+    "gamesggcars",
+    "leonida"
+   ],
+   "map": [
+    0.7968,
+    0.4862
+   ],
+   "added": "2026-11-25",
+   "video": {
+    "id": "tWl5WqKLIEs"
+   },
+   "color": "#39e07a",
+   "shape": "sport",
+   "g": [
+    568,
+    950
+   ]
+  }
+ ],
+ "carTips": [
+  "Escaneie o carro com o app WAiNK, no celular do jogo: aparece o nome, o acesso, a segurança e o valor.",
+  "Carros marcados com \"chave clonada\" só podem ser levados depois que você libera o clonador de chaves, no Capítulo 3.",
+  "Sem rastreador: o Moses, em Port Gellhorn, registra o carro (desde que ele não tenha sido roubado perto da loja dele).",
+  "Rastreador comum: a Pay 'n' Spray registra a partir do início do Capítulo 3. O Randy também compra.",
+  "Rastreador avançado (superesportivos): se você dirigir devagar demais, a polícia é chamada. Mantenha a velocidade.",
+  "O Randy paga mais por carro sem arranhão. Os carros especiais voltam pro mesmo lugar depois de um tempo.",
+  "Dormir num esconderijo muda a hora do dia, o que ajuda com os carros que só aparecem em horário específico."
+ ],
+ "setup": [
+  {
+   "id": "gta6-ps5",
+   "g": "O jogo",
+   "n": "GTA 6 para PS5 (versão em caixa)",
+   "ic": "🎮",
+   "w": "A versão em caixa vem com o código de download do jogo. Funciona em qualquer PS5, inclusive na edição digital, sem leitor de disco.",
+   "link": "https://meli.la/2nz5WHs",
+   "img": "img/produtos/gta6-ps5.jpg"
+  },
+  {
+   "id": "gta6-xbox",
+   "g": "O jogo",
+   "n": "GTA 6 para Xbox Series X|S (digital)",
+   "ic": "🎮",
+   "w": "Versão digital: você recebe um código e resgata na sua conta Xbox. Funciona tanto no Series X quanto no Series S.",
+   "link": "https://meli.la/28j9R9s",
+   "img": "img/produtos/gta6-xbox.jpg"
+  },
+  {
+   "id": "ps5",
+   "g": "Console",
+   "n": "PlayStation 5 Slim (edição digital) com Astro Bot e Gran Turismo 7",
+   "ic": "🕹️",
+   "w": "O jeito mais comum de jogar GTA 6. Este kit é a edição digital, sem leitor de disco, e já vem com Astro Bot e Gran Turismo 7. Funciona normalmente com o GTA 6, que é instalado por código.",
+   "link": "https://meli.la/1hFYCRx",
+   "img": "img/produtos/ps5.jpg"
+  },
+  {
+   "id": "xbox-x",
+   "g": "Console",
+   "n": "Xbox Series X",
+   "ic": "🕹️",
+   "w": "A opção mais potente da Microsoft pra jogar GTA 6, com mais espaço e imagem melhor que o Series S.",
+   "link": "https://meli.la/2j9Jg8V",
+   "img": "img/produtos/xbox-x.jpg"
+  },
+  {
+   "id": "xbox-s",
+   "g": "Console",
+   "n": "Xbox Series S",
+   "ic": "🕹️",
+   "w": "O console mais barato pra jogar GTA 6. É só digital (sem leitor de disco) e tem menos espaço, então o jogo tem que ser comprado na loja do Xbox.",
+   "link": "https://meli.la/1FHhaky",
+   "img": "img/produtos/xbox-s.jpg"
+  },
+  {
+   "id": "ssd",
+   "g": "Acessórios",
+   "n": "HD externo 500 GB (USB 3.0)",
+   "ic": "💾",
+   "w": "Bom pra guardar jogos e liberar espaço no console. Atenção: no PS5 e no Xbox Series, jogos da nova geração como o GTA 6 ficam guardados no HD externo, mas precisam voltar pro armazenamento interno pra jogar.",
+   "link": "https://meli.la/2uopVSs",
+   "img": "img/produtos/ssd.jpg"
+  },
+  {
+   "id": "dualsense-preto",
+   "g": "Acessórios",
+   "n": "Controle DualSense preto",
+   "ic": "🎯",
+   "w": "Bom pra ter um carregando enquanto joga, ou pra quando um amigo vier jogar.",
+   "link": "https://meli.la/2kWPbau",
+   "img": "img/produtos/dualsense-preto.jpg"
+  },
+  {
+   "id": "dualsense-roxo",
+   "g": "Acessórios",
+   "n": "Controle DualSense roxo",
+   "ic": "🎯",
+   "w": "A mesma coisa, numa cor que combina com o pôr do sol de Vice City.",
+   "link": "https://meli.la/2kL4fe2",
+   "img": "img/produtos/dualsense-roxo.jpg"
+  },
+  {
+   "id": "headset",
+   "g": "Acessórios",
+   "n": "Headset JBL",
+   "ic": "🎧",
+   "w": "Faz diferença pra ouvir as rádios, os diálogos e os detalhes do áudio de Leonida.",
+   "link": "https://meli.la/2YDP6va",
+   "img": "img/produtos/headset.jpg"
+  },
+  {
+   "id": "gift-psn",
+   "g": "Presentes",
+   "n": "Cartão-presente PlayStation Store",
+   "ic": "🎁",
+   "w": "Bom presente pra quem prefere comprar o jogo digital ou o passe do GTA Online.",
+   "link": "https://meli.la/1NYb3WZ",
+   "img": "img/produtos/gift-psn.jpg"
+  }
+ ],
+ "news": [
+  {
+   "d": "2026-11-27",
+   "t": "Guia de troféus: os 27 troféus visíveis explicados, com checklist",
+   "u": "trofeus.html"
+  },
+  {
+   "d": "2026-11-27",
+   "t": "Guia de compra: Standard ou Ultimate, tamanho e qual console roda melhor",
+   "u": "guia-de-compra.html"
+  },
+  {
+   "d": "2026-11-27",
+   "t": "Mapa novo, com zoom detalhado e mais de 1.400 lugares de Leonida",
+   "u": "mapa.html"
+  },
+  {
+   "d": "2026-11-26",
+   "t": "Especial: todas as referências ao Brasil no GTA 6",
+   "u": "brasil.html"
+  },
+  {
+   "d": "2026-11-26",
+   "t": "Agora cada easter egg mostra a dificuldade e o tempo estimado",
+   "u": "index.html#lista"
+  },
+  {
+   "d": "2026-11-25",
+   "t": "11 easter eggs novos, entre eles o Little Sam e a estátua dos cavalos",
+   "u": "index.html#lista"
+  }
+ ]
+}
