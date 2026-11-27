@@ -151,6 +151,11 @@ footer p{max-width:760px;margin-bottom:6px}
 .eban.ph figcaption{position:absolute;right:8px;bottom:6px;font-size:11px;color:#fff;background:rgba(15,11,26,.6);padding:2px 8px;border-radius:6px}
 @media (max-width:640px){.eban.ph{height:150px}}
 
+.news{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;margin:22px 0 4px}
+.news h2{font-size:17px;margin-bottom:8px}.news ul{list-style:none;display:grid;gap:6px;padding:0}
+.news li{display:flex;gap:12px;align-items:baseline;font-size:15px}.news time{flex:0 0 46px;color:var(--teal);font-weight:700;font-size:13px}
+.news a{color:var(--text);text-decoration:none}.news a:hover{color:var(--teal)}
+
 .yt{position:relative;aspect-ratio:16/9;border-radius:14px;overflow:hidden;background:#000 center/cover no-repeat;cursor:pointer;border:1px solid var(--line)}
 .yt::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.45))}
 .yt .play{position:absolute;left:50%;top:50%;width:74px;height:52px;margin:-26px 0 0 -37px;border-radius:14px;background:#ff0033;box-shadow:0 6px 20px rgba(0,0,0,.4)}
