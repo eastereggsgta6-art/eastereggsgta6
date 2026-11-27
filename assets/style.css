@@ -129,6 +129,28 @@ footer p{max-width:760px;margin-bottom:6px}
 .difbig{display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;margin:6px 0 4px}.difbig .dif{font-size:15px;color:var(--text);margin:0}.difbig small{color:var(--muted);font-size:12px}
 .card .chk{position:relative;z-index:2}
 
+/* Artes próprias */
+.hero.art{background:#0f0b1a url(../img/art/vice.svg) center bottom/cover no-repeat}
+.hero.art::before{right:auto;top:0;left:0;width:100%;height:100%;border-radius:0;background:linear-gradient(90deg,rgba(15,11,26,.94) 0%,rgba(15,11,26,.75) 45%,rgba(15,11,26,.25) 100%);opacity:1;filter:none}
+.hero.art::after{display:none}
+@media (max-width:640px){.hero.art::before{background:linear-gradient(180deg,rgba(15,11,26,.55),rgba(15,11,26,.88));opacity:1}}
+.card::before{content:"";display:block;height:70px;margin:-20px -20px 2px;border-radius:var(--r) var(--r) 0 0;background:#1d1630 center/cover no-repeat;opacity:.9}
+.card[data-cat=piada]::before{background-image:url(../img/art/vice.svg)}
+.card[data-cat=misterio]::before{background-image:url(../img/art/pantano.svg)}
+.card[data-cat=gta]::before{background-image:url(../img/art/keys.svg)}
+.card[data-cat=pop]::before,.card[data-cat=encontro]::before{background-image:url(../img/art/praia.svg)}
+.card:nth-child(3n)::before{background-position:20% 60%}.card:nth-child(3n+1)::before{background-position:80% 70%}.card:nth-child(3n+2)::before{background-position:50% 80%}
+.eban{height:150px;border-radius:16px;background:center 70%/cover no-repeat;margin:8px 0 18px;border:1px solid var(--line)}
+@media (max-width:640px){.eban{height:110px}}
+
+/* Fotos oficiais (prévia) */
+.hero.art.photo{background-image:url(../img/fotos/hero.jpg);background-position:center 60%}
+.hero.art.photo .credit-hero{position:absolute;right:12px;bottom:8px;font-size:11px;color:rgba(255,255,255,.6);z-index:1}
+.card.ph::before{background-image:var(--ph)!important;height:110px;opacity:1}
+.eban.ph{position:relative;height:220px;margin:8px 0 18px}
+.eban.ph figcaption{position:absolute;right:8px;bottom:6px;font-size:11px;color:#fff;background:rgba(15,11,26,.6);padding:2px 8px;border-radius:6px}
+@media (max-width:640px){.eban.ph{height:150px}}
+
 .yt{position:relative;aspect-ratio:16/9;border-radius:14px;overflow:hidden;background:#000 center/cover no-repeat;cursor:pointer;border:1px solid var(--line)}
 .yt::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.45))}
 .yt .play{position:absolute;left:50%;top:50%;width:74px;height:52px;margin:-26px 0 0 -37px;border-radius:14px;background:#ff0033;box-shadow:0 6px 20px rgba(0,0,0,.4)}
