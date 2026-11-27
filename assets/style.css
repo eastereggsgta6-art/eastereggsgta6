@@ -124,6 +124,11 @@ footer p{max-width:760px;margin-bottom:6px}
 
 @media (max-width:640px){header.top .wrap{flex-wrap:wrap;height:auto;padding-top:10px;padding-bottom:6px}nav{display:flex;width:100%;overflow-x:auto;gap:16px;padding:6px 0 2px;scrollbar-width:none}nav a{margin-left:0 !important;white-space:nowrap}.hero{padding:48px 0 40px}.hero::before,.hero::after{opacity:.35}.modal{padding:24px 20px}}
 
+.dif{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--muted);margin:2px 0 10px}
+.dif .dots{display:inline-flex;gap:3px}.dif .dots i{width:7px;height:14px;border-radius:2px;display:block}
+.difbig{display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;margin:6px 0 4px}.difbig .dif{font-size:15px;color:var(--text);margin:0}.difbig small{color:var(--muted);font-size:12px}
+.card .chk{position:relative;z-index:2}
+
 .yt{position:relative;aspect-ratio:16/9;border-radius:14px;overflow:hidden;background:#000 center/cover no-repeat;cursor:pointer;border:1px solid var(--line)}
 .yt::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.45))}
 .yt .play{position:absolute;left:50%;top:50%;width:74px;height:52px;margin:-26px 0 0 -37px;border-radius:14px;background:#ff0033;box-shadow:0 6px 20px rgba(0,0,0,.4)}

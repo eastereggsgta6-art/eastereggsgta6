@@ -23,6 +23,19 @@
 <link rel="stylesheet" href="assets/style.css">
 <link rel="stylesheet" href="assets/leaflet.css">
 <style>
+
+.mprog{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:14px 0 10px}
+.mptxt{font-size:14px;color:var(--muted);margin-bottom:8px}.mptxt b{color:var(--text)}
+.mpbar{height:8px;background:#2a2142;border-radius:6px;overflow:hidden}.mpbar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--pink),var(--orange),var(--yellow));transition:width .3s}
+.msearch{position:relative;margin-bottom:10px}
+.msearch input{width:100%;background:#0f0b1a;border:1px solid var(--line);border-radius:12px;color:var(--text);padding:12px 14px;font:inherit;font-size:15px}
+.msearch ul{position:absolute;z-index:1000;left:0;right:0;top:100%;margin-top:4px;list-style:none;background:#1d1630;border:1px solid #2e2547;border-radius:12px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.msearch li button{display:flex;gap:10px;align-items:center;width:100%;text-align:left;background:none;border:0;color:var(--text);padding:10px 14px;font:inherit;cursor:pointer}
+.msearch li button:hover{background:#2a2142}.msearch li i{flex:0 0 12px;height:12px;border-radius:50%}
+.msearch li small{display:block;color:var(--muted);font-size:12px}.msearch li.none{padding:12px 14px;color:var(--muted);font-size:14px}
+.pin.found span{opacity:.35;filter:grayscale(.6)}
+.pp .ppf{margin-top:8px;width:100%;background:#2a2142;border:1px solid #3a2f5c;color:#f4eefc;border-radius:8px;padding:7px;font:inherit;font-size:13px;font-weight:700;cursor:pointer}
+.pp .ppf.on{background:var(--teal);color:#0f0b1a;border-color:var(--teal)}
 .pin.car span{border-radius:5px;width:18px;height:18px;margin:2px}
 .legend i.sq{background:#fff;border-radius:3px}
 .maptools{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin:0 0 12px}
@@ -78,7 +91,9 @@
   <h1 class="mh">Mapa dos easter eggs e carros raros</h1>
   <p class="sub">Clique num alfinete para ver o easter egg ou o carro. Use a roda do mouse ou os dedos para dar zoom. Alfinetes com borda tracejada estão na região certa, mas o ponto exato ainda não foi confirmado.</p>
   <div class="legend"><span><i style="background:var(--pink)"></i>Piada da Rockstar</span><span><i style="background:var(--violet)"></i>Mistério</span><span><i style="background:var(--orange)"></i>Jogos antigos</span><span><i style="background:var(--teal)"></i>Cultura pop</span><span><i style="background:var(--yellow)"></i>Encontro aleatório</span><span><i class="sq"></i>Carro raro</span><span><i class="ap"></i>Local aproximado</span></div>
-  <div class="maptools"><label class="tg"><input type="checkbox" id="fEgg" checked> Easter eggs</label><label class="tg"><input type="checkbox" id="fCar" checked> Carros raros</label></div>
+  <div class="mprog"><div class="mptxt"><b id="pTxt">0 de 52</b> easter eggs achados <span id="pCar"></span></div><div class="mpbar"><i id="pBar"></i></div></div>
+  <div class="msearch"><input id="mq" type="search" placeholder="Buscar no mapa: ex. papagaio, Vice City, Infernus…" autocomplete="off" aria-label="Buscar no mapa"><ul id="mres" hidden></ul></div>
+  <div class="maptools"><label class="tg"><input type="checkbox" id="fEgg" checked> Easter eggs</label><label class="tg"><input type="checkbox" id="fCar" checked> Carros raros</label><label class="tg"><input type="checkbox" id="fHide"> Esconder os que já achei</label></div>
   <div id="map" role="application" aria-label="Mapa de Leonida com os easter eggs"></div>
   <div id="editor" hidden>
     <b>Modo de edição</b>: clique no mapa onde fica o easter egg, escolha qual é e copie o código pra mandar.
@@ -103,12 +118,52 @@
   var M={}, gEgg=L.layerGroup().addTo(map), gCar=L.layerGroup().addTo(map);
   document.getElementById("fEgg").addEventListener("change",function(){this.checked?gEgg.addTo(map):map.removeLayer(gEgg)});
   document.getElementById("fCar").addEventListener("change",function(){this.checked?gCar.addTo(map):map.removeLayer(gCar)});
+  var KEY="ovos-achados", TOTAL=52, TOTALC=18, EGGIDS=["ovo-na-torre", "apartamento-dexter", "skunk-ape", "abducao-port-gellhorn", "cachorro-jet-ski", "livro-red-dead", "memorias-liberty-city", "gps-los-santos", "toque-do-michael", "wade-podcast", "fabien-larouche", "conversa-mount-chiliad", "rx-men", "casa-san-andreas", "pedras-mount-kalaga", "laboratorio-2314", "carinho-no-gato", "adesivo-lil-probe-inn", "casa-do-ovni", "caranguejo-monstro", "bunker-secreto", "postais-grand-senora", "tommy-iguana", "placa-new-austin", "race-and-chase", "parodia-goggins", "seta-e-empurrar", "portal-vice-city", "papagaio-tony", "ritual-capri", "tartarugas-ninja", "exterminador-2", "bones-mario", "carro-paul-walker", "chapeu-arthur-morgan", "placa-seinfeld", "adesivo-love-fist", "hulk-vermelho", "influencer-torre", "caminhao-chiliad", "adesivo-petty", "estatua-cavalos-manifest", "ponto-bob-esponja", "little-sam", "ocean-view-hotel", "big-smoke-cigar", "phil-ammu-nation", "dinheiro-red-dead", "brasao-leonida", "qr-code-peekhole", "rampa-base-militar", "npc-teleporte"], CARIDS=["pegassi-infernus-96", "pegassi-vitello", "pegassi-tempesta", "pegassi-toros", "bravado-gauntlet-hellfire", "grotti-itali-rsx", "bravado-banshee", "mamba-gt", "piccia-furia", "emerus-purple-drank", "emerus-royal-ruby", "thrax-andrew-node", "comet-class-act", "phoenix-bloodbath", "hustler-red-hot", "gauntlet-devils-rope", "hauners-ridgway", "penumbra-ff-paul-walker"];
+  function getF(){try{return new Set(JSON.parse(localStorage.getItem(KEY)||"[]"))}catch(_){return new Set()}}
+  function setF(f){try{localStorage.setItem(KEY,JSON.stringify(Array.from(f)))}catch(_){}}
+  var hide=document.getElementById("fHide");
+  function popHtml(p,isF){
+    return '<div class="pp"><small style="color:'+(p.k==="car"?"#ffd23f":p.c)+'">'+esc(p.cn)+'</small><b>'+esc(p.t)+'</b><span>📍 '+esc(p.w)+(p.ap?' (aproximado)':'')+'</span><a href="'+p.u+'">'+(p.k==="car"?"Ver como pegar →":"Ver como encontrar →")+'</a><button type="button" class="ppf'+(isF?' on':'')+'" data-id="'+p.id+'">'+(isF?(p.k==="car"?"✓ Peguei":"✓ Achei"):(p.k==="car"?"Marcar como pego":"Marcar como achado"))+'</button></div>';
+  }
+  function paint(){
+    var f=getF(), ne=EGGIDS.filter(function(i){return f.has(i)}).length, nc=CARIDS.filter(function(i){return f.has(i)}).length;
+    document.getElementById("pTxt").textContent=ne+" de "+TOTAL;
+    document.getElementById("pCar").textContent="· "+nc+" de "+TOTALC+" carros";
+    document.getElementById("pBar").style.width=Math.round(ne/TOTAL*100)+"%";
+    PINS.forEach(function(p){
+      var m=M[p.id], isF=f.has(p.id), el=m.getElement();
+      if(el) el.classList.toggle("found",isF);
+      m.setPopupContent(popHtml(p,isF));
+      var g=p.k==="car"?gCar:gEgg;
+      if(hide.checked&&isF){g.removeLayer(m)}else if(!g.hasLayer(m)){g.addLayer(m)}
+    });
+  }
   PINS.forEach(function(p){
     var ic=L.divIcon({className:"pin"+(p.ap?" ap":"")+(p.k==="car"?" car":""),html:'<span style="background:'+p.c+'"></span>',iconSize:[22,22],iconAnchor:[11,11],popupAnchor:[0,-10]});
     var m=L.marker([H-p.y*H,p.x*W],{icon:ic,title:p.t,keyboard:true}).addTo(p.k==="car"?gCar:gEgg);
-    m.bindPopup('<div class="pp"><small style="color:'+(p.k==="car"?"#ffd23f":p.c)+'">'+esc(p.cn)+'</small><b>'+esc(p.t)+'</b><span>📍 '+esc(p.w)+(p.ap?' (aproximado)':'')+'</span><a href="'+p.u+'">'+(p.k==="car"?"Ver como pegar →":"Ver como encontrar →")+'</a></div>');
+    m.bindPopup(popHtml(p,false));
     M[p.id]=m;
   });
+  document.getElementById("map").addEventListener("click",function(ev){
+    var b=ev.target.closest(".ppf"); if(!b) return;
+    var f=getF(), id=b.getAttribute("data-id"); f.has(id)?f.delete(id):f.add(id); setF(f); paint();
+    if(M[id]&&map.hasLayer(M[id])) M[id].openPopup();
+  });
+  hide.addEventListener("change",paint);
+  window.addEventListener("storage",paint);
+  paint();
+  var q=document.getElementById("mq"), res=document.getElementById("mres");
+  var norm=function(s){return String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"")};
+  function go(id){var p=PINS.find(function(x){return x.id===id}),g=p.k==="car"?gCar:gEgg; if(!map.hasLayer(g))g.addTo(map); if(!g.hasLayer(M[id]))g.addLayer(M[id]); map.setView(M[id].getLatLng(),0); M[id].openPopup(); res.hidden=true; q.blur();}
+  q.addEventListener("input",function(){
+    var v=norm(q.value.trim()); if(v.length<2){res.hidden=true;return}
+    var hits=PINS.filter(function(p){return norm(p.t+" "+p.w+" "+p.cn).indexOf(v)>-1}).slice(0,8);
+    res.innerHTML=hits.length?hits.map(function(p){return '<li><button type="button" data-id="'+p.id+'"><i style="background:'+p.c+'"></i><span>'+esc(p.t)+'<small>'+esc(p.w)+'</small></span></button></li>'}).join(""):'<li class="none">Nada no mapa com esse nome. Tente a <a href="index.html?q='+encodeURIComponent(q.value)+'#lista">busca da lista</a>.</li>';
+    res.hidden=false;
+  });
+  res.addEventListener("click",function(ev){var b=ev.target.closest("button[data-id]"); if(b) go(b.getAttribute("data-id"))});
+  q.addEventListener("keydown",function(ev){if(ev.key==="Enter"){var b=res.querySelector("button[data-id]"); if(b){ev.preventDefault();go(b.getAttribute("data-id"))}} if(ev.key==="Escape")res.hidden=true;});
+  document.addEventListener("click",function(ev){if(!ev.target.closest(".msearch"))res.hidden=true});
   function fromHash(){
     var h=location.hash.slice(1);
     document.getElementById("editor").hidden=h!=="editar";
@@ -132,7 +187,7 @@
   <p>Site de fã, sem ligação com a Rockstar Games ou a Take-Two Interactive. Grand Theft Auto e todos os nomes relacionados pertencem aos seus donos.</p>
   <p>Siga: <a href="https://www.instagram.com/egggta6/" target="_blank" rel="noopener">Instagram @egggta6</a> · <a href="https://www.tiktok.com/@egggta6" target="_blank" rel="noopener">TikTok @egggta6</a> · Contato: eastereggsgta6@gmail.com</p>
   <p><a href="sobre.html">Sobre</a> · <a href="contato.html">Contato</a> · <a href="privacidade.html">Política de Privacidade</a></p>
-  <p>Cada descoberta leva o crédito e o link de quem achou primeiro. Última atualização: 25/11/2026.</p>
+  <p>Cada descoberta leva o crédito e o link de quem achou primeiro. Última atualização: 26/11/2026.</p>
 </div></footer>
 <script src="assets/app.js"></script>
 </body>
